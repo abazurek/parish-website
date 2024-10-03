@@ -13,13 +13,23 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "typescript": "^5.6.2",
-    "web-vitals": "^2.1.4"
+    "react-icons": "^4.9.0",
+    "web-vitals": "^2.1.4",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "typescript": "5.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint:staged": "lint-staged",
+    "lint:tsc": "tsc --noEmit",
+    "prettier:all": "prettier --write \"src/**\" \"apps/*/src/**\" \"shared/**\" \".storybook/**\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
