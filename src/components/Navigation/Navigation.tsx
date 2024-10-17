@@ -1,108 +1,80 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import styled from "styled-components";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-
-const buttonsList = [
-  // { key: "home", title: "Aktualności", options: [] },
-  {
-    key: "ads",
-    title: "Ogłoszenia",
-    options: ["Ogłoszenia", "Intencje mszalne"],
-  },
-  {
-    key: "parish",
-    title: "Parafia",
-    options: [
-      "Historia parafii",
-      "Grupy i wspólnoty",
-      "Kancelaria parafialna",
-      "Kapłani",
-      "Siostry szarytki",
-      "Galeria",
-      "Standardy ochrony małoletnich",
-    ],
-  },
-  {
-    key: "sacraments",
-    title: "Sakramenty",
-    options: [
-      "Msze święte i nabożeństwa",
-      "Chrzest Święty",
-      "Spowiedź Święta",
-      "I Komunia Święta",
-      "Bierzmowanie",
-      "Małżeństwo",
-      "Namaszczenie chorych",
-    ],
-  },
-  {
-    key: "contact",
-    title: "Kontakt",
-    options: [],
-  },
-];
+import { navList } from "../../utils/navList";
 
 export const Navigation: FC = () => {
+  const [isOpen, setIsOpen] = useState<string | boolean>(false);
+
+  const showDropdown = (key: string) => setIsOpen(key);
+  const hideDropdown = () => setIsOpen(false);
   return (
-    <>
-      <Navbar expand="lg">
-        <Navbar.Brand href="#home">Aktualności</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-dark-example" />
-        <Navbar.Collapse id="navbar-dark-example">
-          <Nav>
-            {buttonsList.map((element) => {
+    <StyledNavbar>
+      <Container>
+        <Navbar.Toggle />
+
+        <StyledCollapse>
+          <StyledNav>
+            {navList.map((element) => {
               if (element.options.length) {
                 return (
-                  <NavDropdown
+                  <StyledNavDropdown
                     id="nav-dropdown-dark-example"
                     title={element.title}
-                    menuVariant="dark"
+                    show={isOpen === element.key}
+                    onMouseEnter={() => showDropdown(element.key)}
+                    onMouseLeave={hideDropdown}
                   >
                     {element.options.map((option) => (
                       <NavDropdown.Item href="#action/3.1">
                         {option}
                       </NavDropdown.Item>
                     ))}
-                  </NavDropdown>
+                  </StyledNavDropdown>
                 );
-              } else
-                return (
-                  <Navbar.Brand href="#home">{element.title}</Navbar.Brand>
-                );
+              } else return <NavButton href="#home">{element.title}</NavButton>;
             })}
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      {/*<List>*/}
-      {/*  {buttonsList.map((element) => {*/}
-      {/*    if (element.options.length) {*/}
-      {/*      return (*/}
-      {/*        <li>*/}
-      {/*          <select>*/}
-      {/*            {element.title}{" "}*/}
-      {/*            {element.options.map((option) => (*/}
-      {/*              <option>{option}</option>*/}
-      {/*            ))}*/}
-      {/*          </select>*/}
-      {/*        </li>*/}
-      {/*      );*/}
-      {/*    } else*/}
-      {/*      return (*/}
-      {/*        <li>*/}
-      {/*          <button>{element.title}</button>*/}
-      {/*        </li>*/}
-      {/*      );*/}
-      {/*  })}*/}
-      {/*</List>*/}
-      {/*  <Tabs defaultActiveKey="home">*/}
-      {/*  <Tab eventKey="home" title="Strona główna"></Tab>*/}
-      {/*  <Tab eventKey="ads" title="Ogłoszenia">*/}
-      {/*    <Form.Select>*/}
-      {/*      <option>Ogłoszenia</option>*/}
-      {/*      <option>Intencje mszalne</option>*/}
-      {/*    </Form.Select>*/}
-      {/*  </Tab>*/}
-      {/*</Tabs>*/}
-    </>
+          </StyledNav>
+        </StyledCollapse>
+      </Container>
+    </StyledNavbar>
   );
 };
+
+const StyledNavbar = styled(Navbar)`
+  padding: 0;
+  justify-content: space-between;
+  a {
+    font-weight: 300;
+    color: black;
+  }
+`;
+const StyledCollapse = styled(Navbar.Collapse)`
+  width: 100%;
+`;
+const StyledNav = styled(Nav)`
+  justify-content: space-between;
+  width: 100%;
+`;
+const StyledNavDropdown = styled(NavDropdown)`
+  text-transform: uppercase;
+  font-size: 1rem;
+  &:hover {
+    background-color: white;
+  }
+  & > a {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    &:after {
+      content: none;
+    }
+  }
+`;
+const NavButton = styled(Navbar.Brand)`
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding: 8px;
+  &:hover {
+    background-color: white;
+  }
+`;
