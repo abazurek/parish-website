@@ -12,14 +12,12 @@ export const Navigation: FC = () => {
     <StyledNavbar>
       <Container>
         <Navbar.Toggle />
-
         <StyledCollapse>
           <StyledNav>
             {navList.map((element) => {
               if (element.options.length) {
                 return (
                   <StyledNavDropdown
-                    id="nav-dropdown-dark-example"
                     title={element.title}
                     show={isOpen === element.key}
                     onMouseEnter={() => showDropdown(element.key)}
@@ -53,7 +51,7 @@ const StyledCollapse = styled(Navbar.Collapse)`
   width: 100%;
 `;
 const StyledNav = styled(Nav)`
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 `;
 const StyledNavDropdown = styled(NavDropdown)`
