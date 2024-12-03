@@ -11,26 +11,39 @@ export const Navigation: FC = () => {
   return (
     <StyledNavbar>
       <Container>
-        <Navbar.Toggle />
-        <StyledCollapse>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <StyledCollapse id="basic-navbar-nav">
           <StyledNav>
             {navList.map((element) => {
               if (element.options.length) {
                 return (
                   <StyledNavDropdown
+                    key={element.key}
                     title={element.title}
                     show={isOpen === element.key}
                     onMouseEnter={() => showDropdown(element.key)}
                     onMouseLeave={hideDropdown}
+                    // onClick={() => (window.location.href = element.href)}
                   >
                     {element.options.map((option) => (
-                      <NavDropdown.Item href="#action/3.1">
-                        {option}
+                      <NavDropdown.Item
+                        key={option.href}
+                        href={`/${option.href}`}
+                      >
+                        {option.title}
                       </NavDropdown.Item>
                     ))}
                   </StyledNavDropdown>
                 );
-              } else return <NavButton href="#home">{element.title}</NavButton>;
+              } else
+                return (
+                  <NavButton
+                    key={element.key}
+                    href={element.key === "home" ? "/home" : "/contact"}
+                  >
+                    {element.title}
+                  </NavButton>
+                );
             })}
           </StyledNav>
         </StyledCollapse>

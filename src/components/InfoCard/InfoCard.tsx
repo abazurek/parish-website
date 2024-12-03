@@ -1,6 +1,6 @@
-import React, { FC, JSX } from "react";
+import React, { FC } from "react";
 import { Card, CardText, CardTitle } from "react-bootstrap";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { FaChurch, FaCross } from "react-icons/fa";
 import { GiHolyGrail } from "react-icons/gi";
 
@@ -24,14 +24,14 @@ export const InfoCard: FC<IInfoCard> = ({ title, addInfo, icon }) => {
       <IconBox>{icons[icon as keyof typeof icons]}</IconBox>
       <Card.Body>
         <StyledCardTitle>{title}</StyledCardTitle>
-        <CardText>
+        <>
           {addInfo.map((info) => (
-            <DescriptionWrapper>
+            <DescriptionWrapper key={info.title}>
               <p>{info.title}:</p>
               <p>{info.desc}</p>
             </DescriptionWrapper>
           ))}
-        </CardText>
+        </>
       </Card.Body>
     </StyledCard>
   );
