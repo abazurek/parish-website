@@ -28,7 +28,7 @@ export const navList: {
       { title: "Grupy i wspólnoty", href: "groups" },
       { title: "Kancelaria parafialna", href: "office" },
       { title: "Kapłani", href: "priests" },
-      { title: "Siostry szarytki", href: "nuns" },
+      { title: "Siostry nazaretanki", href: "nuns" },
       { title: "Galeria", href: "gallery" },
       { title: "Standardy ochrony małoletnich", href: "protection" },
     ],

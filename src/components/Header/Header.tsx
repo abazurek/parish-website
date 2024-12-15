@@ -36,6 +36,7 @@ const Wrapper = styled.div`
   position: sticky;
   top: 0;
   background: rgba(237, 235, 233, 0.8);
+  margin-bottom: 2rem;
 `;
 const ContactLine = styled.div`
   display: flex;
