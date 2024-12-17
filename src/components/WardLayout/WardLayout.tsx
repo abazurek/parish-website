@@ -78,8 +78,22 @@ export const WardLayout: FC = () => {
                   </SubsiteLayout>
                 }
               />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/protection" element={<Protection />} />
+              <Route
+                path="/gallery"
+                element={
+                  <SubsiteLayout title="Galeria">
+                    <Gallery />
+                  </SubsiteLayout>
+                }
+              />
+              <Route
+                path="/protection"
+                element={
+                  <SubsiteLayout title="Standardy ochrony małotelnich">
+                    <Protection />
+                  </SubsiteLayout>
+                }
+              />
               {[
                 "/masses",
                 "/baptism",
@@ -89,7 +103,15 @@ export const WardLayout: FC = () => {
                 "/marriage",
                 "sick",
               ].map((path) => (
-                <Route key={path} path={path} element={<Sacraments />} />
+                <Route
+                  key={path}
+                  path={path}
+                  element={
+                    <SubsiteLayout title="Sakramenty">
+                      <Sacraments />
+                    </SubsiteLayout>
+                  }
+                />
               ))}
             </Routes>
           </Container>

@@ -26,5 +26,8 @@ export const Protection: FC = () => {
   );
 };
 const Link = styled.a`
-  color: black;
+  color: #e9e6dc;
+  font-weight: bolder;
+  font-size: 1.6rem;
+  text-decoration: underline;
 `;

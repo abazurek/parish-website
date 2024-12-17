@@ -42,16 +42,18 @@ export const Sacraments: FC = () => {
       <Tab.Container id="left-tabs-example" defaultActiveKey={nameOfPath}>
         <Row>
           <Col>
-            <Nav
+            <StyledNav
               variant="pills"
               className="flex-wrap align-items-center justify-content-center"
             >
               {navList[3].options.map((option) => (
-                <Nav.Item key={option.href}>
-                  <Nav.Link eventKey={option.href}>{option.title}</Nav.Link>
-                </Nav.Item>
+                <SingleItem key={option.href}>
+                  <SingleButton eventKey={option.href}>
+                    {option.title}
+                  </SingleButton>
+                </SingleItem>
               ))}
-            </Nav>
+            </StyledNav>
           </Col>
         </Row>
         <Row>
@@ -72,6 +74,23 @@ export const Sacraments: FC = () => {
   );
 };
 
+const StyledNav = styled(Nav)`
+  &.nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background-color: #e4e7e0;
+    color: #394039;
+  }
+  a:hover {
+    color: #737268;
+  }
+`;
+
 const SingleButton = styled(Nav.Link)`
-  border: 1px solid gray;
+  color: #e4e7e0;
+`;
+
+const SingleItem = styled(Nav.Item)`
+  .nav-tabs .nav-item .nav-link {
+    color: #fff;
+  }
 `;

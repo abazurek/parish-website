@@ -27,8 +27,8 @@ export const massesInfo = [
         desc: "nabożeństwo po mszy świętej wieczorowej",
       },
       {
-        title: "KOMUNIA ŚW. DLA CHORYCH",
-        desc: "W każdy pierwszy piątek miesiąca od godziny 9.00 księża z naszej parafii odwiedzają chorych w ich domach, służąc im posługą sakramentalną: zanoszą chorym Komunię św., jest też możliwość spowiedzi, a także przyjęcia sakramentu namaszczenia",
+        title: "komunia św dla chorych",
+        desc: "w każdy pierwszy piątek miesiąca od godziny 9.00 księża z naszej parafii odwiedzają chorych w ich domach, służąc im posługą sakramentalną: zanoszą chorym komunię\u00A0św., jest też możliwość spowiedzi, a także przyjęcia sakramentu namaszczenia",
       },
       {
         title: "pierwsza sobota miesiąca",
