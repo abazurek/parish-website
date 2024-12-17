@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { WardLayout } from "./components/WardLayout/WardLayout";
 import styled from "styled-components";
-import church from "./assets/church.jpg";
+import tlo from "./assets/tlo.png";
 
 export const App: FC = () => {
   return (
@@ -11,9 +11,9 @@ export const App: FC = () => {
   );
 };
 const Box = styled.div`
-  background-image: url(${church});
+  background-image: url(${tlo});
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

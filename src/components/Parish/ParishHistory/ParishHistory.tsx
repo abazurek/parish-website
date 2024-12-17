@@ -13,7 +13,6 @@ export const ParishHistory: FC = () => {
     </>
   );
 };
-
 const Box = styled.div`
   margin-bottom: 1rem;
 `;

@@ -12,10 +12,8 @@ interface IInfoCard {
 
 const icons = {
   grail: <GiHolyGrail />,
-  // church: <PiChurchLight />,
   cross: <FaCross />,
   church: <FaChurch />,
-  // cross: <PiCross />,
 };
 
 export const InfoCard: FC<IInfoCard> = ({ title, addInfo, icon }) => {
@@ -42,19 +40,20 @@ const StyledCard = styled(Card)`
   height: 20rem;
   position: relative;
   padding-top: 2rem;
-  box-shadow: 9px 27px 42px -1px rgba(66, 68, 90, 1);
+  background: rgba(57, 64, 57, 0.85);
+  color: #e4e7e0;
 `;
 const IconBox = styled.div`
   position: absolute;
   top: -2rem;
   left: 7rem;
-  background: gray;
+  background: rgba(57, 64, 57, 1);
   padding: 0.5rem;
-  border-radius: 4px;
+  border-radius: 50%;
   svg {
     height: 3rem;
     width: auto;
-    color: white;
+    color: #e4e7e0;
   }
 `;
 const StyledCardTitle = styled(CardTitle)`

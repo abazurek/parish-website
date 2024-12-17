@@ -13,56 +13,119 @@ import { Nuns } from "../Nuns/Nuns";
 import { Gallery } from "../Galerry/Galerry";
 import { Protection } from "../Protection/Protection";
 import { Sacraments } from "../Sacraments/Sacraments";
+import { SubsiteLayout } from "../SubsiteLayout/SubsiteLayout";
 
 export const WardLayout: FC = () => {
   const location = useLocation();
 
   return (
-    <>
+    <Wrapper>
       <Header />
-      <Container>
-        <InfoWrapper
-          $isWhite={location.pathname !== "/" && location.pathname !== "/home"}
+      <InfoWrapper
+        $isWisible={location.pathname !== "/" && location.pathname !== "/home"}
+      >
+        {location.pathname !== "/" && location.pathname !== "/home" && (
+          <TitleBanner />
+        )}
+        <InfoBox
+          $isWisible={
+            location.pathname !== "/" && location.pathname !== "/home"
+          }
         >
-          <Routes>
-            <Route path="/home" element={<HomeLayout />} />
-            <Route path="/" element={<HomeLayout />} />
-            <Route path="/ads" element={<Ads />} />
-            <Route path="/mass" element={<Ads />} />
-            <Route path="/history" element={<ParishHistory />} />
-            <Route path="/groups" element={<Groups />} />
-            <Route path="/office" element={<Office />} />
-            <Route path="/priests" element={<Priests />} />
-            <Route path="/nuns" element={<Nuns />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/protection" element={<Protection />} />
-            {[
-              "/masses",
-              "/baptism",
-              "/confession",
-              "/communion",
-              "/confirmation",
-              "/marriage",
-              "sick",
-            ].map((path) => (
-              <Route key={path} path={path} element={<Sacraments />} />
-            ))}
-            {/*<Route*/}
-            {/*  path={["/masses", "/baptism"] as string | string[]}*/}
-            {/*  element={<Sacraments />}*/}
-            {/*/>*/}
-          </Routes>
-        </InfoWrapper>
-      </Container>
-    </>
+          <Container>
+            <Routes>
+              <Route path="/home" element={<HomeLayout />} />
+              <Route path="/" element={<HomeLayout />} />
+              <Route path="/ads" element={<Ads />} />
+              <Route path="/mass" element={<Ads />} />
+              <Route
+                path="/history"
+                element={
+                  <SubsiteLayout title="Historia parafii">
+                    <ParishHistory />
+                  </SubsiteLayout>
+                }
+              />
+              <Route
+                path="/groups"
+                element={
+                  <SubsiteLayout title="Grupy i wspólnoty">
+                    <Groups />
+                  </SubsiteLayout>
+                }
+              />
+              <Route
+                path="/office"
+                element={
+                  <SubsiteLayout title="Kancelaria parafialna">
+                    <Office />
+                  </SubsiteLayout>
+                }
+              />
+              <Route
+                path="/priests"
+                element={
+                  <SubsiteLayout title="Kapłani">
+                    <Priests />
+                  </SubsiteLayout>
+                }
+              />
+              <Route
+                path="/nuns"
+                element={
+                  <SubsiteLayout title="Siostry nazaretanki">
+                    <Nuns />
+                  </SubsiteLayout>
+                }
+              />
+              <Route path="/gallery" element={<Gallery />} />
+              <Route path="/protection" element={<Protection />} />
+              {[
+                "/masses",
+                "/baptism",
+                "/confession",
+                "/communion",
+                "/confirmation",
+                "/marriage",
+                "sick",
+              ].map((path) => (
+                <Route key={path} path={path} element={<Sacraments />} />
+              ))}
+            </Routes>
+          </Container>
+        </InfoBox>
+      </InfoWrapper>
+    </Wrapper>
   );
 };
-
-const InfoWrapper = styled.div<{ $isWhite: boolean }>`
-  ${({ $isWhite }) =>
-    $isWhite &&
+const Wrapper = styled.div`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+`;
+const InfoWrapper = styled.div<{ $isWisible: boolean }>`
+  flex: 1;
+  color: #e4e7e0;
+  ${({ $isWisible }) =>
+    $isWisible &&
     css`
-      background: white;
+      display: flex;
+      justify-content: space-evenly;
     `}
-  padding: 1rem;
+`;
+
+const TitleBanner = styled.div`
+  flex: 1;
+`;
+
+const InfoBox = styled.div<{ $isWisible: boolean }>`
+  ${({ $isWisible }) =>
+    $isWisible &&
+    css`
+      background: rgba(57, 64, 57, 0.85);
+      flex: 2;
+      color: #e4e7e0;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    `}
 `;

@@ -8,7 +8,7 @@ export const HomeLayout: FC = () => {
   return (
     <>
       <TitleWrapper>
-        <Title>{title}</Title>
+        <Title>aktualności</Title>
       </TitleWrapper>
       <CardsWrapper>
         {cardsDescription.map((card) => (
@@ -25,17 +25,21 @@ export const HomeLayout: FC = () => {
 };
 
 const TitleWrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  padding-top: 3rem;
+  position: fixed;
+  top: 160px;
+  right: 0;
+  width: 350px;
+  background: rgba(57, 64, 57, 1);
+  z-index: 2;
 `;
 
 const Title = styled.h1`
-  font-size: 3rem;
-  text-align: center;
+  font-size: 2.5rem;
+  padding: 0.5rem;
   font-weight: 600;
-  max-width: 500px;
-  color: white;
+  color: #e4e7e0;
+  text-align: center;
+  text-transform: uppercase;
 `;
 const CardsWrapper = styled.div`
   display: flex;
@@ -43,5 +47,8 @@ const CardsWrapper = styled.div`
   gap: 1rem;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 5rem;
+  margin-top: 7rem;
+  > div:nth-of-type(2n + 1) {
+    margin-top: 5rem;
+  }
 `;
