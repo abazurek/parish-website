@@ -12,7 +12,7 @@ export const Navigation: FC = () => {
   return (
     <StyledNavbar expand="lg">
       <Container>
-        <Brand href="#home">{title}</Brand>
+        <Brand href="/home">{title}</Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <StyledCollapse id="basic-navbar-nav">
           <StyledNav>
@@ -28,7 +28,7 @@ export const Navigation: FC = () => {
                   >
                     {element.options.map((option) => (
                       <NavDropdown.Item
-                        key={option.href}
+                        key={element.options.indexOf(option)}
                         href={`/${option.href}`}
                       >
                         {option.title}

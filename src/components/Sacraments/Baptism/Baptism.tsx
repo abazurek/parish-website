@@ -5,7 +5,7 @@ export const Baptism: FC = () => {
   return (
     <div>
       {baptismInfo.map((element) => (
-        <p>{element}</p>
+        <p key={baptismInfo.indexOf(element)}>{element}</p>
       ))}
     </div>
   );

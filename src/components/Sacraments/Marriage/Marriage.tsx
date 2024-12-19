@@ -7,7 +7,15 @@ export const Marriage: FC = () => {
       {marriageInfo.map((element) => (
         <div key={marriageInfo.indexOf(element)}>
           <p>{element.text}</p>
-          {element.list.length && <ul></ul>}
+          {element.list.length ? (
+            <ul>
+              {element.list.map((option) => (
+                <li key={element.list.indexOf(option)}>{option}</li>
+              ))}
+            </ul>
+          ) : (
+            ""
+          )}
         </div>
       ))}
     </div>

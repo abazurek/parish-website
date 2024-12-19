@@ -1,8 +1,8 @@
 export const marriageInfo = [
   {
     text: "Aby zawrzeć sakramentalny związek małżeński, narzeczeni powinni zgłosić się do kancelarii parafialnej na trzy miesiące przed zaplanowaną datą ślubu. Jeśli chcieliby Państwo, żeby liturgia ślubna miała miejsce w naszym kościele, dobrze byłoby odpowiednio wcześnie ustalić i zarezerwować termin. Do załatwienia spraw związanych ze ślubem uprawnione są parafia zamieszkania narzeczonej i parafia zamieszkania narzeczonego. Mogą Państwo wybrać jedną z nich.",
-  list: []
-    ,
+    list: [],
+  },
   {
     text: "Do kancelarii parafialnej na trzy miesiące przed ślubem należy dostarczyć następujące dokumenty",
     list: [

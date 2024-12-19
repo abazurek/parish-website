@@ -8,12 +8,13 @@ import { ParishHistory } from "../Parish/ParishHistory/ParishHistory";
 import { Groups } from "../Parish/Groups/Groups";
 import styled, { css } from "styled-components";
 import { Office } from "../Parish/Office/Office";
-import { Priests } from "../Priests/Priests";
-import { Nuns } from "../Nuns/Nuns";
-import { Gallery } from "../Galerry/Galerry";
-import { Protection } from "../Protection/Protection";
+import { Priests } from "../Parish/Priests/Priests";
+import { Nuns } from "../Parish/Nuns/Nuns";
+import { Gallery } from "../Parish/Galerry/Galerry";
+import { Protection } from "../Parish/Protection/Protection";
 import { Sacraments } from "../Sacraments/Sacraments";
 import { SubsiteLayout } from "../SubsiteLayout/SubsiteLayout";
+import { Contact } from "../Contact/Contact";
 
 export const WardLayout: FC = () => {
   const location = useLocation();
@@ -36,8 +37,41 @@ export const WardLayout: FC = () => {
             <Routes>
               <Route path="/home" element={<HomeLayout />} />
               <Route path="/" element={<HomeLayout />} />
-              <Route path="/ads" element={<Ads />} />
-              <Route path="/mass" element={<Ads />} />
+              <Route
+                path="/ads"
+                element={
+                  <SubsiteLayout>
+                    <Ads />
+                  </SubsiteLayout>
+                }
+              />
+              <Route
+                path="/intentions"
+                element={
+                  <SubsiteLayout>
+                    <Ads />
+                  </SubsiteLayout>
+                }
+              />
+              {[
+                "/masses",
+                "/baptism",
+                "/confession",
+                "/communion",
+                "/confirmation",
+                "/marriage",
+                "sick",
+              ].map((path) => (
+                <Route
+                  key={path}
+                  path={path}
+                  element={
+                    <SubsiteLayout title="Sakramenty">
+                      <Sacraments />
+                    </SubsiteLayout>
+                  }
+                />
+              ))}
               <Route
                 path="/history"
                 element={
@@ -113,6 +147,14 @@ export const WardLayout: FC = () => {
                   }
                 />
               ))}
+              <Route
+                path="/contact"
+                element={
+                  <SubsiteLayout title="Kontakt">
+                    <Contact />
+                  </SubsiteLayout>
+                }
+              />
             </Routes>
           </Container>
         </InfoBox>

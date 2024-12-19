@@ -39,8 +39,8 @@ export const Sacraments: FC = () => {
 
   return (
     <div>
-      <Tab.Container id="left-tabs-example" defaultActiveKey={nameOfPath}>
-        <Row>
+      <Tab.Container defaultActiveKey={nameOfPath}>
+        <FirstRow>
           <Col>
             <StyledNav
               variant="pills"
@@ -55,7 +55,7 @@ export const Sacraments: FC = () => {
               ))}
             </StyledNav>
           </Col>
-        </Row>
+        </FirstRow>
         <Row>
           <Tab.Content>
             {navList[3].options.map((option) => (
@@ -73,7 +73,9 @@ export const Sacraments: FC = () => {
     </div>
   );
 };
-
+const FirstRow = styled(Row)`
+  margin-bottom: 2rem;
+`;
 const StyledNav = styled(Nav)`
   &.nav-pills .nav-link.active,
   .nav-pills .show > .nav-link {

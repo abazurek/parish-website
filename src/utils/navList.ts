@@ -16,7 +16,7 @@ export const navList: {
     // href: "/ads",
     options: [
       { title: "Ogłoszenia", href: "ads" },
-      { title: "Intencje mszalne", href: "mass" },
+      { title: "Intencje mszalne", href: "intentions" },
     ],
   },
   {

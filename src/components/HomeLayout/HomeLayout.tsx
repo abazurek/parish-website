@@ -1,5 +1,4 @@
 import React, { FC } from "react";
-import { title } from "../../utils/title";
 import { cardsDescription } from "../../utils/cardsDescription";
 import { InfoCard } from "../InfoCard/InfoCard";
 import styled from "styled-components";
@@ -7,13 +6,13 @@ import styled from "styled-components";
 export const HomeLayout: FC = () => {
   return (
     <>
-      <TitleWrapper>
-        <Title>aktualności</Title>
-      </TitleWrapper>
+      {/*<TitleWrapper>*/}
+      {/*  <Title>aktualności</Title>*/}
+      {/*</TitleWrapper>*/}
       <CardsWrapper>
         {cardsDescription.map((card) => (
           <InfoCard
-            key={card.title}
+            key={cardsDescription.indexOf(card)}
             title={card.title}
             addInfo={card.addInfo}
             icon={card.icon}
@@ -48,6 +47,7 @@ const CardsWrapper = styled.div`
   align-items: center;
   flex-wrap: wrap;
   margin-top: 7rem;
+  margin-bottom: 3rem;
   > div:nth-of-type(2n + 1) {
     margin-top: 5rem;
   }

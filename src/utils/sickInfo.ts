@@ -1,0 +1,6 @@
+export const sickInfo = [
+  "Przyjęcie sakramentu chorych jest możliwe w każdej chwili, jeśli zachodzi taka potrzeba. Wystarczy przyjść do zakrystii po Mszy św. i prosić o sakrament. Jeśli nie jest się w stanie łaski uświęcającej, przed przyjęciem sakramentu chorych należy się wyspowiadać.",
+  "Namaszczenia udziela się osobom starszym, a także – niezależnie od wieku – poważnie chorym oraz tym wszystkim, którzy znajdują się w niebezpieczeństwie śmierci.  Do sakramentu można też przystąpić przed planowaną operacją chirurgiczną czy inną wizytą w szpitalu. Poprzez sakrament namaszczenia Chrystus pomaga choremu w dźwiganiu krzyża cierpienia i starości. Jeśli taka jest wola Boża, sakrament może prowadzić do wyzdrowienia.",
+  "Jeden z tych sakramentów, do których możemy przystępować wielokrotnie, jeśli jest taka potrzeba.",
+  "Przyjęcie sakramentu chorych jest możliwe zarówno w domu jak i w szpitalu. Będąc w szpitalu, należy zwrócić się do kapelana. Naszych parafian, którzy ze względów zdrowotnych nie mogą przychodzić do kościoła, odwiedzamy w ich domach. Wizyty te mają miejsce w każdy pierwszy piątek miesiąca. Jeśli jest taka potrzeba, możemy też oczywiście przyjść z posługą duszpasterską w innym dogodnym terminie. Prosimy w takiej sytuacji o kontakt telefoniczny z parafią.",
+];

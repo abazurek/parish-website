@@ -1,4 +1,4 @@
-import { PiChurchLight } from "react-icons/pi";
+import { phoneNumber } from "./phoneNumber";
 export const cardsDescription = [
   {
     title: "Msze Święte",
@@ -30,7 +30,7 @@ export const cardsDescription = [
         title: "od poniedziałku do piątku",
         desc: "8:30 - 9:00 i 15:30-16:30 za wyjątkiem świąt",
       },
-      { title: "kontakt możliwy pod nr tel", desc: "34 327 16 51" },
+      { title: "kontakt możliwy pod nr tel", desc: `${phoneNumber}` },
     ],
     icon: "church",
   },

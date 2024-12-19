@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { nuns } from "../../utils/nuns";
+import { nuns } from "../../../utils/nuns";
 import styled from "styled-components";
 
 export const Nuns: FC = () => {
   return (
     <div>
       {nuns.map((element) => (
-        <p>
+        <p key={nuns.indexOf(element)}>
           <Text>{element.name}</Text> - {element.role}
         </p>
       ))}

@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import standardyPDF from "./../../assets/standardy.pdf";
+import standardyPDF from "../../../assets/standardy.pdf";
 import styled from "styled-components";
 export const Protection: FC = () => {
   return (
