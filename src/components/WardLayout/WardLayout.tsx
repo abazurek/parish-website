@@ -4,14 +4,7 @@ import { Container } from "react-bootstrap";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { HomeLayout } from "../HomeLayout/HomeLayout";
 import { Ads } from "../Ads/Ads";
-import { ParishHistory } from "../Parish/ParishHistory/ParishHistory";
-import { Groups } from "../Parish/Groups/Groups";
 import styled, { css } from "styled-components";
-import { Office } from "../Parish/Office/Office";
-import { Priests } from "../Parish/Priests/Priests";
-import { Nuns } from "../Parish/Nuns/Nuns";
-import { Gallery } from "../Parish/Galerry/Galerry";
-import { Protection } from "../Parish/Protection/Protection";
 import { Sacraments } from "../Sacraments/Sacraments";
 import { SubsiteLayout } from "../SubsiteLayout/SubsiteLayout";
 import { Contact } from "../Contact/Contact";
@@ -125,6 +118,9 @@ const InfoWrapper = styled.div<{ $isWisible: boolean }>`
 
 const TitleBanner = styled.div`
   flex: 1;
+  @media (max-width: 600px) {
+    flex: 0;
+  }
 `;
 
 const InfoBox = styled.div<{ $isWisible: boolean }>`
