@@ -60,6 +60,15 @@ const StyledNavbar = styled(Navbar)`
     font-weight: 300;
     color: #394039;
   }
+  &.navbar-light .navbar-brand,
+  &.navbar-light .navbar-nav .nav-link {
+    color: #394039;
+    &:hover,
+    &.show {
+      color: #e4e7e0;
+      background-color: rgba(57, 64, 57);
+    }
+  }
 `;
 const StyledCollapse = styled(Navbar.Collapse)`
   width: 100%;
@@ -71,15 +80,34 @@ const StyledNav = styled(Nav)`
 const StyledNavDropdown = styled(NavDropdown)`
   text-transform: uppercase;
   font-size: 1rem;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
   &:hover {
-    background-color: rgba(57, 64, 57, 0.85);
+    background-color: rgba(57, 64, 57);
     color: #e4e7e0;
   }
   & > a {
     font-size: 1.3rem;
     text-transform: uppercase;
+    border-top-right-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
     &:after {
       content: none;
+    }
+  }
+  .dropdown-menu {
+    margin-top: 0;
+    background-color: rgba(57, 64, 57);
+    border: none;
+    border-top-left-radius: 0;
+    a {
+      color: #e4e7e0;
+      &:hover {
+        color: #394039;
+      }
+      &:active {
+        background: #e4e7e0;
+      }
     }
   }
 `;
@@ -88,7 +116,7 @@ const NavButton = styled(Navbar.Brand)`
   font-size: 1.3rem;
   padding: 8px;
   &:hover {
-    background-color: rgba(57, 64, 57, 0.85);
+    background-color: rgba(57, 64, 57);
     color: #e4e7e0;
   }
 `;
@@ -105,6 +133,8 @@ const Brand = styled(Navbar.Brand)`
   }
 `;
 const Button = styled(NavButton)`
+  border-radius: 0.25rem;
+  color: #394039;
   &.navbar-light .navbar-brand {
     color: #394039;!important;
     font-weight: 300;
