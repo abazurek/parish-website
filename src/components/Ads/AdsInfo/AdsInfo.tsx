@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { adsInfo } from "../../utils/adsInfo";
+import { adsInfo } from "../../../utils/adsInfo";
 import styled from "styled-components";
 
 export const AdsInfo: FC = () => {

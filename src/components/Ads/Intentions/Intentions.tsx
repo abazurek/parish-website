@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { massesIntentions } from "../../utils/massesIntentions";
+import { massesIntentions } from "../../../utils/massesIntentions";
 import styled from "styled-components";
 
 export const Intentions: FC = () => {

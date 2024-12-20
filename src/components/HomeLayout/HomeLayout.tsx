@@ -28,6 +28,8 @@ const CardsWrapper = styled.div`
   margin-top: 7rem;
   margin-bottom: 3rem;
   > div:nth-of-type(2n + 1) {
-    margin-top: 5rem;
+    @media (min-width: 600px) {
+      margin-top: 5rem;
+    }
   }
 `;

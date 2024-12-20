@@ -1,7 +1,7 @@
 import { FC } from "react";
 import { useLocation } from "react-router-dom";
-import { AdsInfo } from "../AdsInfo/AdsInfo";
-import { Intentions } from "../Intentions/Intentions";
+import { AdsInfo } from "./AdsInfo/AdsInfo";
+import { Intentions } from "./Intentions/Intentions";
 import Tab from "react-bootstrap/Tab";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
