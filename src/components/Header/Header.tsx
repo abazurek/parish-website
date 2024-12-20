@@ -15,12 +15,3 @@ const Wrapper = styled.div`
   background: #e4e7e0;
   z-index: 3;
 `;
-const TitleBanner = styled.div`
-  width: 100vw;
-  background: rgba(75, 139, 116, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem;
-  padding: 0.7rem;
-`;

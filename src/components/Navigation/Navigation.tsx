@@ -12,7 +12,9 @@ export const Navigation: FC = () => {
   return (
     <StyledNavbar expand="lg">
       <Container>
-        <Brand href="/home">{title}</Brand>
+        <Brand href="/home" className="title">
+          {title}
+        </Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <StyledCollapse id="basic-navbar-nav">
           <StyledNav>
@@ -67,6 +69,13 @@ const StyledNavbar = styled(Navbar)`
     &.show {
       color: #e4e7e0;
       background-color: rgba(57, 64, 57);
+    }
+  }
+  &.navbar-light .title.navbar-brand {
+    &:hover,
+    &.show {
+      color: #394039;
+      background: none;
     }
   }
 `;
