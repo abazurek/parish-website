@@ -15,6 +15,7 @@ import { Protection } from "../Parish/Protection/Protection";
 import { Sacraments } from "../Sacraments/Sacraments";
 import { SubsiteLayout } from "../SubsiteLayout/SubsiteLayout";
 import { Contact } from "../Contact/Contact";
+import { Parish } from "../Parish/Parish";
 
 export const WardLayout: FC = () => {
   const location = useLocation();
@@ -54,80 +55,24 @@ export const WardLayout: FC = () => {
                 }
               />
               {[
-                "/masses",
-                "/baptism",
-                "/confession",
-                "/communion",
-                "/confirmation",
-                "/marriage",
-                "sick",
+                "/history",
+                "/groups",
+                "/office",
+                "/priests",
+                "/nuns",
+                "/gallery",
+                "/protection",
               ].map((path) => (
                 <Route
                   key={path}
                   path={path}
                   element={
-                    <SubsiteLayout title="Sakramenty">
-                      <Sacraments />
+                    <SubsiteLayout title="Parafia">
+                      <Parish />
                     </SubsiteLayout>
                   }
                 />
               ))}
-              <Route
-                path="/history"
-                element={
-                  <SubsiteLayout title="Historia parafii">
-                    <ParishHistory />
-                  </SubsiteLayout>
-                }
-              />
-              <Route
-                path="/groups"
-                element={
-                  <SubsiteLayout title="Grupy i wspólnoty">
-                    <Groups />
-                  </SubsiteLayout>
-                }
-              />
-              <Route
-                path="/office"
-                element={
-                  <SubsiteLayout title="Kancelaria parafialna">
-                    <Office />
-                  </SubsiteLayout>
-                }
-              />
-              <Route
-                path="/priests"
-                element={
-                  <SubsiteLayout title="Kapłani">
-                    <Priests />
-                  </SubsiteLayout>
-                }
-              />
-              <Route
-                path="/nuns"
-                element={
-                  <SubsiteLayout title="Siostry nazaretanki">
-                    <Nuns />
-                  </SubsiteLayout>
-                }
-              />
-              <Route
-                path="/gallery"
-                element={
-                  <SubsiteLayout title="Galeria">
-                    <Gallery />
-                  </SubsiteLayout>
-                }
-              />
-              <Route
-                path="/protection"
-                element={
-                  <SubsiteLayout title="Standardy ochrony małotelnich">
-                    <Protection />
-                  </SubsiteLayout>
-                }
-              />
               {[
                 "/masses",
                 "/baptism",
@@ -135,7 +80,7 @@ export const WardLayout: FC = () => {
                 "/communion",
                 "/confirmation",
                 "/marriage",
-                "sick",
+                "/sick",
               ].map((path) => (
                 <Route
                   key={path}

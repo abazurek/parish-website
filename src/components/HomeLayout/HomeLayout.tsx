@@ -6,9 +6,6 @@ import styled from "styled-components";
 export const HomeLayout: FC = () => {
   return (
     <>
-      {/*<TitleWrapper>*/}
-      {/*  <Title>aktualności</Title>*/}
-      {/*</TitleWrapper>*/}
       <CardsWrapper>
         {cardsDescription.map((card) => (
           <InfoCard
@@ -22,24 +19,6 @@ export const HomeLayout: FC = () => {
     </>
   );
 };
-
-const TitleWrapper = styled.div`
-  position: fixed;
-  top: 160px;
-  right: 0;
-  width: 350px;
-  background: rgba(57, 64, 57, 1);
-  z-index: 2;
-`;
-
-const Title = styled.h1`
-  font-size: 2.5rem;
-  padding: 0.5rem;
-  font-weight: 600;
-  color: #e4e7e0;
-  text-align: center;
-  text-transform: uppercase;
-`;
 const CardsWrapper = styled.div`
   display: flex;
   justify-content: space-evenly;

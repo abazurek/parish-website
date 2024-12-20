@@ -30,4 +30,7 @@ const Link = styled.a`
   font-weight: bolder;
   font-size: 1.6rem;
   text-decoration: underline;
+  &:hover {
+    color: #737268;
+  }
 `;
