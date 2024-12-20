@@ -16,6 +16,9 @@ export const HomeLayout: FC = () => {
           />
         ))}
       </CardsWrapper>
+      <div className="d-flex align-items-center justify-content-center">
+        <VisitsWrapper>Kolęda parafialna data itd</VisitsWrapper>
+      </div>
     </>
   );
 };
@@ -32,4 +35,12 @@ const CardsWrapper = styled.div`
       margin-top: 5rem;
     }
   }
+`;
+
+const VisitsWrapper = styled.div`
+  display: none;
+  background: rgba(57, 64, 57, 0.85);
+  width: 80%;
+  height: 500px;
+  margin-top: 5rem;
 `;
