@@ -5,10 +5,10 @@ export const Priests: FC = () => {
   return (
     <div>
       <div>
-        <Test>Ksiądz proboszcz</Test> Tomasz Wrona
+        <Test>Proboszcz: </Test>ks. Tomasz Wrona
       </div>
       <div>
-        <Test>Wikary</Test> Dawid Szymoniak
+        <Test>Wikariusz: </Test>ks. Dawid Szymoniak
       </div>
     </div>
   );

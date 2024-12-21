@@ -7,7 +7,7 @@ export const Nuns: FC = () => {
     <div>
       {nuns.map((element) => (
         <p key={nuns.indexOf(element)}>
-          <Text>{element.name}</Text> - {element.role}
+          <Text>s. {element.name}</Text> - {element.role}
         </p>
       ))}
     </div>

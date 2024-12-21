@@ -5,7 +5,7 @@ export const cardsDescription = [
     addInfo: [
       {
         title: "w niedziele i uroczystości",
-        desc: "7:30, 9:30, 10:45 (z udziałem dzieci), 12:00,17:00",
+        desc: "7:30, 9:30, 10:45 (z udziałem dzieci), 12:00, 17:00",
       },
       { title: "święta", desc: "8:00, 10:00, 17:00" },
       { title: "dni powszednie", desc: "7:00, 7:30, 17:00" },
