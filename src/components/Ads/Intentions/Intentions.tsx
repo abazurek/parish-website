@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { massesIntentions } from "../../../utils/massesIntentions";
 import styled from "styled-components";
+import { groupIntentions } from "../../../utils/groupIntentions";
 
 export const Intentions: FC = () => {
   return (
@@ -8,7 +9,7 @@ export const Intentions: FC = () => {
       {massesIntentions.map((element) => (
         <SingleBox key={massesIntentions.indexOf(element)}>
           <Days>
-            {element.day} {element.date} {element.addInfo}
+            {element.day} <Date>{element.date}</Date> {element.addInfo}
           </Days>
           {element.intensions.map((intention) => (
             <Text key={element.intensions.indexOf(intention)}>
@@ -17,6 +18,20 @@ export const Intentions: FC = () => {
           ))}
         </SingleBox>
       ))}
+      {groupIntentions.intentions.length > 0 && (
+        <div>
+          <Days>
+            {groupIntentions.title} <Date>{groupIntentions.date}</Date>
+          </Days>
+          <div>
+            {groupIntentions.intentions.map((element) => (
+              <Text key={groupIntentions.intentions.indexOf(element)}>
+                {element}
+              </Text>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
@@ -31,4 +46,7 @@ const Days = styled.p`
 `;
 const Text = styled.p`
   margin-bottom: 0;
+`;
+const Date = styled.span`
+  text-transform: lowercase;
 `;

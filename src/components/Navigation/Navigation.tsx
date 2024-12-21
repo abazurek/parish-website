@@ -38,11 +38,11 @@ export const Navigation: FC = () => {
                     ))}
                   </StyledNavDropdown>
                 );
-              } else
+              } else if (element)
                 return (
                   <Button
                     key={element.key}
-                    href={element.key === "home" ? "/home" : "/contact"}
+                    href={element.key === "home" ? "/home" : element.key}
                   >
                     {element.title}
                   </Button>

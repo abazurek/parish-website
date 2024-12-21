@@ -9,6 +9,7 @@ import { Sacraments } from "../Sacraments/Sacraments";
 import { SubsiteLayout } from "../SubsiteLayout/SubsiteLayout";
 import { Contact } from "../Contact/Contact";
 import { Parish } from "../Parish/Parish";
+import { Visits } from "../Visits/Visits";
 
 export const WardLayout: FC = () => {
   const location = useLocation();
@@ -31,6 +32,14 @@ export const WardLayout: FC = () => {
             <Routes>
               <Route path="/home" element={<HomeLayout />} />
               <Route path="/" element={<HomeLayout />} />
+              {/*<Route*/}
+              {/*  path="/visits"*/}
+              {/*  element={*/}
+              {/*    <SubsiteLayout title="Kolęda duszpasterska">*/}
+              {/*      <Visits />*/}
+              {/*    </SubsiteLayout>*/}
+              {/*  }*/}
+              {/*/>*/}
               <Route
                 path="/ads"
                 element={

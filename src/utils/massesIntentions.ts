@@ -1,89 +1,149 @@
 export const massesIntentions = [
   {
-    day: "Poniedziałek",
-    date: "4 XI",
+    day: "Niedziela",
+    date: "22.12.24r.",
     addInfo: "",
     intensions: [
-      { hour: "7:00", intention: "+Agnieszkę Kierach /od Pauliny z rodz." },
       {
         hour: "7:30",
-        intention: "+Edwarda, Stanisława Klimzów; Juliana, Romana Krawczyków",
+        intention: "+Juliana Wronę",
+      },
+      {
+        hour: "9:30",
+        intention:
+          "+Bolesława, Władysławę, Marię, Bolesława Bednarków, Teofilę, Stanisława Świerczów",
+      },
+      {
+        hour: "10:45",
+        intention:
+          "+Zofię, Zygmunta Wierzbowskich, Mirosława, Waldemara Pasternaków",
+      },
+      {
+        hour: "12:00",
+        intention: "Za parafian",
       },
       {
         hour: "17:00",
+        intention: "+Aline, Józefa, Jerzego i zm. z rodz.",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "23.12.24r.",
+    addInfo: "",
+    intensions: [
+      { hour: "7:00", intention: "+Zbigniewa Strzelczyka /11 r. śm./" },
+      {
+        hour: "7:30",
         intention:
-          "+Janinę, Wiesławę, Alfreda, Kazimierza Cierpiałów; Henrykę Ujma",
+          "+Zygmunta, Józega, Eugenię, Władysławę, Marka Szymoniaków, zm. z rodz.",
+      },
+      {
+        hour: "17:00",
+        intention: "+Juliana Wronę",
       },
     ],
   },
   {
     day: "Wtorek",
-    date: "5 XI",
-    addInfo: "",
-    intensions: [
-      { hour: "7:00", intention: "+Wandę Kwapisz /od uczest. pogrzebu" },
-      {
-        hour: "7:30",
-        intention: "+Agnieszkę Kierach /od wujka Darka z ciocią Sabiną",
-      },
-      {
-        hour: "17:00",
-        intention: "+Kazimierę Rudnicką /od rodz. Plebaniaków z USA",
-      },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "6 XI",
+    date: "24.12.24r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
         intention:
-          "+Krzysztofa Kręciwilka /15 r.śm./; Pawła Łazarewicza /6 r.śm./",
+          "+Ewę, Józefa, Jolantę, Stanisława, Antoninę, Ewę, Józefę, Tomasza, Leona, Irenę, Halinę, Mariana, Walentego, Janinę, Henryka, Grzegorza Nowaków, Renarda Piotrowskiego, Elżbietę Borowską, Domicelę, Wawrzyńca Rakusów, Mieczysława, Janine, Mieczysława Witkowskich, Henryka Bajora",
       },
       {
         hour: "7:30",
-        intention: "+Agnieszkę Kierach /od Arletty z rodz.",
+        intention:
+          "1) O Boże bł. i wszelkie łaski dla s. Ewy z racji imienin, 2) +Juliana Wronę",
+      },
+      // {
+      //   hour: "17:00",
+      //   intention: "+Kazimierę Rudnicką /od rodz. Plebaniaków z USA",
+      // },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "25.12.24r.",
+    addInfo: "Boże Narodzenie",
+    intensions: [
+      {
+        hour: "00:00",
+        intention: "Pasterka za Parafian",
+      },
+      // {
+      //   hour: "7:00",
+      //   intention:
+      //     "+Krzysztofa Kręciwilka /15 r.śm./; Pawła Łazarewicza /6 r.śm./",
+      // },
+      {
+        hour: "9:30",
+        intention: "rez. p. Grabara",
+      },
+      {
+        hour: "10:45",
+        intention: "+Edwarda Bogusa /14 r. śm./",
+      },
+      {
+        hour: "12:00",
+        intention: "+Józefa Kaczmarzyka",
       },
       {
         hour: "17:00",
-        intention: "+Mieczysława Sztamę /od żony Gabrieli",
+        intention: "+Zofię Cieślik /44 r. śm./",
       },
     ],
   },
   {
     day: "Czwartek",
-    date: "5 XI",
+    date: "26.12.24r.",
     addInfo: "",
     intensions: [
-      {
-        hour: "7:00",
-        intention: "+Agnieszkę Kierach /od przyjaciółki Sylwii z rodz.",
-      },
+      // {
+      //   hour: "7:00",
+      //   intention: "+Agnieszkę Kierach /od przyjaciółki Sylwii z rodz.",
+      // },
       {
         hour: "7:30",
-        intention: "Za kapłanów",
+        intention: "+Stanisława Pasiekę /32 r. śm./",
+      },
+      {
+        hour: "9:30",
+        intention:
+          "W podziękowaniu za otrzymane łaski i z prośba o bł. Boże dla całej rodziny",
+      },
+      {
+        hour: "10:45",
+        intention: "+Wojciecha Bulicza",
+      },
+      {
+        hour: "12:00",
+        intention:
+          "W podziękowaniu za zdrowie i łaski i z prośbą o bł. Boże dla całej rodziny",
       },
       {
         hour: "17:00",
         intention:
-          "+Krystynę Wilk /od wspólnoty sióstr Nazaretanek z ul. 7 Kamienic w Częstochowie",
+          "+Józefa Cierpiała /1 r. śm., od córki Haliny, wnuków: Marcina i Eweliny z rodz",
       },
     ],
   },
   {
     day: "Piątek",
-    date: "8 XI",
-    addInfo: "święto narodzenia Matki Bożej",
+    date: "27.12.24r.",
+    addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Annę Golis /od syna Janusza",
+        intention: "+Henryka /r. śm./, Zofię Haliniaków",
       },
       {
         hour: "7:30",
-        intention: "+Henryka /10 r.śm./, Teresę /11 r.śm./ Kluzów",
+        intention: "+Jolantę Szymonik /3 r. śm., od męża/",
       },
       {
         hour: "17:00",
@@ -93,48 +153,48 @@ export const massesIntentions = [
   },
   {
     day: "Sobota",
-    date: "8 XI",
+    date: "28.12.24r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Agnieszkę Kierach /od męża i dzieci",
+        intention: "+Zofię Złośnik /od wnuka Jarosława z rodz./",
       },
       {
         hour: "7:30",
-        intention: "+Jolantę Wawrzak /od szwagierki Elżbiety Wawrzak z rodz.",
+        intention: "+Elżbietę Glińska /od rodz. Cabanów z Ostrów/",
       },
       {
         hour: "17:00",
-        intention: "W 18 r. ur. Karola, o zdrowie i błog. Boże",
+        intention: "+Wacława /20 r. śm./, Halinę, Bożenę Mroczków",
       },
     ],
   },
-
   {
     day: "Niedziela",
-    date: "3 IX",
+    date: "29.12.24r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Antoniego Liska /od córki Małgorzaty z rodz.",
+        intention: "+Antoniego /3 r. śm./, Stanisławę Wilków",
       },
       {
         hour: "9:30",
-        intention: " rez. p. Bialk",
+        intention: "+Bolesława /43 r. śm./, Helenę, Eugeniusza Trybulców",
       },
       {
         hour: "10:45",
-        intention: "+Jadwigę, Bogumiła, c.r. Kiserów",
+        intention: "+Genowefę Tomasik /od córki Barbary i sąsiadki Lidii/",
       },
       {
         hour: "12:00",
-        intention: "Za parafian",
+        intention: "Za ks. Dawida z racji imienin",
       },
       {
         hour: "17:00",
-        intention: "+Zygmunta Żmudzkiego",
+        intention:
+          "+Sylwestrę, Zygmunta Wilków /od Jadwigi i Tadeusza Łysakowskich z rodz./",
       },
     ],
   },
