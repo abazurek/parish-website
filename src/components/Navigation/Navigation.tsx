@@ -113,6 +113,7 @@ const StyledNavDropdown = styled(NavDropdown)`
       color: #e4e7e0;
       &:hover {
         color: #394039;
+        background: #e4e7e0;
       }
       &:active {
         background: #e4e7e0;

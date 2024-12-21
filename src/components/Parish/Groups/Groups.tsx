@@ -14,7 +14,10 @@ export const Groups: FC = () => {
       <div>chór parafialny</div>
       <div>akcja katolicka</div>
       <div>rada parafialna</div>
-      <div>biblioteka parafialna (czynna: ????????????????????????)</div>
+      <div>
+        biblioteka parafialna czynna w każdy poniedziałek (oprócz świąt) w godz.
+        15:45 - 16:45
+      </div>
     </Box>
   );
 };
