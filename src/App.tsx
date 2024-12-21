@@ -12,7 +12,6 @@ export const App: FC = () => {
 };
 const Box = styled.div`
   background-image: url(${tlo});
-  width: 100vw;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;

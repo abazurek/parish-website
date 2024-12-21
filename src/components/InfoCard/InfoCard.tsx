@@ -20,7 +20,7 @@ export const InfoCard: FC<IInfoCard> = ({ title, addInfo, icon }) => {
   return (
     <StyledCard $icon={icons[icon as keyof typeof icons]}>
       <IconBox>{icons[icon as keyof typeof icons]}</IconBox>
-      <Card.Body>
+      <StyledCardBody>
         <StyledCardTitle>{title}</StyledCardTitle>
         <>
           {addInfo.map((info) => (
@@ -30,14 +30,16 @@ export const InfoCard: FC<IInfoCard> = ({ title, addInfo, icon }) => {
             </DescriptionWrapper>
           ))}
         </>
-      </Card.Body>
+      </StyledCardBody>
     </StyledCard>
   );
 };
-
+const StyledCardBody = styled(Card.Body)`
+  padding-top: 0;
+`;
 const StyledCard = styled(Card)`
   width: 18rem;
-  height: 20rem;
+  height: 18rem;
   position: relative;
   padding-top: 2rem;
   background: rgba(57, 64, 57, 0.85);

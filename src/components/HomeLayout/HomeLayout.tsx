@@ -16,9 +16,6 @@ export const HomeLayout: FC = () => {
           />
         ))}
       </CardsWrapper>
-      <div className="d-flex align-items-center justify-content-center">
-        <VisitsWrapper>Kolęda parafialna data itd</VisitsWrapper>
-      </div>
     </>
   );
 };
@@ -28,10 +25,15 @@ const CardsWrapper = styled.div`
   gap: 1rem;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 7rem;
-  margin-bottom: 3rem;
+  margin-top: 24rem;
+  margin-bottom: 2rem;
+  > div {
+    @media (max-width: 766px) {
+      margin-top: 3rem;
+    }
+  }
   > div:nth-of-type(2n + 1) {
-    @media (min-width: 600px) {
+    @media (min-width: 766px) {
       margin-top: 5rem;
     }
   }
