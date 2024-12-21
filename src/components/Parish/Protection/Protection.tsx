@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import standardyPDF from "../../../assets/standardy.pdf";
+import standardyPDF from "../../../assets/standardyOchronyMalotelnich.pdf";
 import styled from "styled-components";
 export const Protection: FC = () => {
   return (
@@ -14,7 +14,7 @@ export const Protection: FC = () => {
         linkiem
       </p>
       <Link
-        href={standardyPDF}
+        href={`${standardyPDF}`}
         target="_blank"
         type="application/pdf"
         rel="alternate"
