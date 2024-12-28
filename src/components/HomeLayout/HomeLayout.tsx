@@ -36,6 +36,9 @@ const CardsWrapper = styled.div`
   align-items: center;
   flex-wrap: wrap;
   margin-top: 24rem;
+  @media (max-width: 766px) {
+    margin-top: 3rem;
+  }
   margin-bottom: 2rem;
   > div {
     @media (max-width: 766px) {

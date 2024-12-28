@@ -1,177 +1,6 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "22.12.24r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:30",
-        intention: "+Juliana Wronę",
-      },
-      {
-        hour: "9:30",
-        intention:
-          "+Bolesława, Władysławę, Marię, Bolesława Bednarków, Teofilę, Stanisława Świerczów",
-      },
-      {
-        hour: "10:45",
-        intention:
-          "+Zofię, Zygmunta Wierzbowskich, Mirosława, Waldemara Pasternaków",
-      },
-      {
-        hour: "12:00",
-        intention: "Za parafian",
-      },
-      {
-        hour: "17:00",
-        intention: "+Aline, Józefa, Jerzego i zm. z rodz.",
-      },
-    ],
-  },
-  {
-    day: "Poniedziałek",
-    date: "23.12.24r.",
-    addInfo: "",
-    intensions: [
-      { hour: "7:00", intention: "+Zbigniewa Strzelczyka /11 r. śm./" },
-      {
-        hour: "7:30",
-        intention:
-          "+Zygmunta, Józega, Eugenię, Władysławę, Marka Szymoniaków, zm. z rodz.",
-      },
-      {
-        hour: "17:00",
-        intention: "+Juliana Wronę",
-      },
-    ],
-  },
-  {
-    day: "Wtorek",
-    date: "24.12.24r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention:
-          "+Ewę, Józefa, Jolantę, Stanisława, Antoninę, Ewę, Józefę, Tomasza, Leona, Irenę, Halinę, Mariana, Walentego, Janinę, Henryka, Grzegorza Nowaków, Renarda Piotrowskiego, Elżbietę Borowską, Domicelę, Wawrzyńca Rakusów, Mieczysława, Janine, Mieczysława Witkowskich, Henryka Bajora",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "1) O Boże bł. i wszelkie łaski dla s. Ewy z racji imienin, 2) +Juliana Wronę",
-      },
-      // {
-      //   hour: "17:00",
-      //   intention: "+Kazimierę Rudnicką /od rodz. Plebaniaków z USA",
-      // },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "25.12.24r.",
-    addInfo: "Boże Narodzenie",
-    intensions: [
-      {
-        hour: "00:00",
-        intention: "Pasterka za Parafian",
-      },
-      // {
-      //   hour: "7:00",
-      //   intention:
-      //     "+Krzysztofa Kręciwilka /15 r.śm./; Pawła Łazarewicza /6 r.śm./",
-      // },
-      {
-        hour: "9:30",
-        intention: "rez. p. Grabara",
-      },
-      {
-        hour: "10:45",
-        intention: "+Edwarda Bogusa /14 r. śm./",
-      },
-      {
-        hour: "12:00",
-        intention: "+Józefa Kaczmarzyka",
-      },
-      {
-        hour: "17:00",
-        intention: "+Zofię Cieślik /44 r. śm./",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "26.12.24r.",
-    addInfo: "",
-    intensions: [
-      // {
-      //   hour: "7:00",
-      //   intention: "+Agnieszkę Kierach /od przyjaciółki Sylwii z rodz.",
-      // },
-      {
-        hour: "7:30",
-        intention: "+Stanisława Pasiekę /32 r. śm./",
-      },
-      {
-        hour: "9:30",
-        intention:
-          "W podziękowaniu za otrzymane łaski i z prośba o bł. Boże dla całej rodziny",
-      },
-      {
-        hour: "10:45",
-        intention: "+Wojciecha Bulicza",
-      },
-      {
-        hour: "12:00",
-        intention:
-          "W podziękowaniu za zdrowie i łaski i z prośbą o bł. Boże dla całej rodziny",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Józefa Cierpiała /1 r. śm., od córki Haliny, wnuków: Marcina i Eweliny z rodz",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "27.12.24r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Henryka /r. śm./, Zofię Haliniaków",
-      },
-      {
-        hour: "7:30",
-        intention: "+Jolantę Szymonik /3 r. śm., od męża/",
-      },
-      {
-        hour: "17:00",
-        intention: "Zbiorowa",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "28.12.24r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Zofię Złośnik /od wnuka Jarosława z rodz./",
-      },
-      {
-        hour: "7:30",
-        intention: "+Elżbietę Glińska /od rodz. Cabanów z Ostrów/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Wacława /20 r. śm./, Halinę, Bożenę Mroczków",
-      },
-    ],
-  },
-  {
-    day: "Niedziela",
     date: "29.12.24r.",
     addInfo: "",
     intensions: [
@@ -189,12 +18,164 @@ export const massesIntentions = [
       },
       {
         hour: "12:00",
-        intention: "Za ks. Dawida z racji imienin",
+        intention: "O Boże błogosławieństwo dla ks. Dawida z racji imienin",
       },
       {
         hour: "17:00",
         intention:
           "+Sylwestrę, Zygmunta Wilków /od Jadwigi i Tadeusza Łysakowskich z rodz./",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "30.12.24r.",
+    addInfo: "",
+    intensions: [
+      { hour: "7:00", intention: "+Zofię Złośnik /od Jolanty Kudej z rodz./" },
+      {
+        hour: "7:30",
+        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Kazimierę Rudnicką /od rodziny/",
+      },
+    ],
+  },
+  {
+    day: "Wtorek",
+    date: "31.12.24r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Dusze w Czyśćcu cierpiące",
+      },
+      {
+        hour: "7:30",
+        intention: "+Przemysława Wolnego /7 r. śm./",
+      },
+      {
+        hour: "16:00",
+        intention: "Dzienkczynno - błagalna na zakończenie roku",
+      },
+      // {
+      //   hour: "17:00",
+      //   intention: "+Kazimierę Rudnicką /od rodz. Plebaniaków z USA",
+      // },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "01.01.25r.",
+    addInfo: "Uroczystość Świętej Bożej Rodzicielki",
+    intensions: [
+      {
+        hour: "9:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "10:45",
+        intention: "+Ingę Zawadzką /od synowej Bożeny i wnuczki Sylwii/",
+      },
+      {
+        hour: "12:00",
+        intention: "Za Parafian",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "O Boże bł., zdrowie i wszelkie łaski dla Lei z racji 1 r. urodzin.",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "02.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention: "Za kapłanów",
+      },
+      {
+        hour: "17:00",
+        intention: "+Feliksę Gielniewską /od księży/",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "03.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention:
+          "O Boże bł., zdrowie i wszelkie łaski dla Teresy z racji urodzin",
+      },
+      {
+        hour: "17:00",
+        intention: "Zbiorowa",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "04.01.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Zofię Worek",
+      },
+      {
+        hour: "7:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "+Henrykę /1 r. śm./, Stanisława /16 r. śm./ Strubaków /od córki Eulalii, wnuczki Anety i prawnuków Ady i Dawida/ +Adama Mozielowskiego /od żony/",
+      },
+    ],
+  },
+  {
+    day: "Niedziela",
+    date: "05.01.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "9:30",
+        intention:
+          "+Natalię, Władysława Cichoniów, Genowefę, Edwarda Tajchmanów",
+      },
+      {
+        hour: "10:45",
+        intention:
+          "+Mariannę Kała /1 r. śm., od córki Iwony z mężem i dziećmi/",
+      },
+      {
+        hour: "12:00",
+        intention:
+          "W podziękowaniu za otrzymane dary z prośbą o Boże bł., zdrowie i wszelkie łaski dla Ryszarda Stefani z racji 80 r. urodzin",
+      },
+      {
+        hour: "17:00",
+        intention: "+Leszka Grajcara /od Iwony i córek Ani i Agnieszki/",
       },
     ],
   },
