@@ -2,10 +2,20 @@ import React, { FC } from "react";
 import { cardsDescription } from "../../utils/cardsDescription";
 import { InfoCard } from "../InfoCard/InfoCard";
 import styled from "styled-components";
+import { Helmet } from "react-helmet";
 
 export const HomeLayout: FC = () => {
   return (
     <>
+      <Helmet>
+        <title>
+          Parafia Świętego Michala Archanioła w Blachowni Aktualności
+        </title>
+        <meta
+          name="description"
+          content="Parafia Świętego Michala Archanioła w Blachowni  - aktualności, strona główna"
+        />
+      </Helmet>
       <CardsWrapper>
         {cardsDescription.map((card) => (
           <InfoCard
@@ -37,12 +47,4 @@ const CardsWrapper = styled.div`
       margin-top: 5rem;
     }
   }
-`;
-
-const VisitsWrapper = styled.div`
-  display: none;
-  background: rgba(57, 64, 57, 0.85);
-  width: 80%;
-  height: 500px;
-  margin-top: 5rem;
 `;

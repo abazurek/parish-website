@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import { useLocation } from "react-router-dom";
 import { AdsInfo } from "./AdsInfo/AdsInfo";
 import { Intentions } from "./Intentions/Intentions";
@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import styled from "styled-components";
 import Nav from "react-bootstrap/Nav";
+import { Helmet } from "react-helmet";
 
 export const Ads: FC = () => {
   const location = useLocation();
@@ -14,6 +15,15 @@ export const Ads: FC = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>
+          Parafia Świętego Michala Archanioła w Blachowni Ogłoszenia
+        </title>
+        <meta
+          name="description"
+          content="Parafia Świętego Michala Archanioła w Blachowni  - ogłoszenia i intencje mszalne"
+        />
+      </Helmet>
       <Tab.Container defaultActiveKey={nameOfPath}>
         <FirstRow>
           <Col>

@@ -32,14 +32,14 @@ export const WardLayout: FC = () => {
             <Routes>
               <Route path="/home" element={<HomeLayout />} />
               <Route path="/" element={<HomeLayout />} />
-              {/*<Route*/}
-              {/*  path="/visits"*/}
-              {/*  element={*/}
-              {/*    <SubsiteLayout title="Kolęda duszpasterska">*/}
-              {/*      <Visits />*/}
-              {/*    </SubsiteLayout>*/}
-              {/*  }*/}
-              {/*/>*/}
+              <Route
+                path="/visits"
+                element={
+                  <SubsiteLayout title="Porządek kolędy na nadchodzący tydzień:">
+                    <Visits />
+                  </SubsiteLayout>
+                }
+              />
               <Route
                 path="/ads"
                 element={

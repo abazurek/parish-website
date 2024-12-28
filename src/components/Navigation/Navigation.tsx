@@ -10,10 +10,10 @@ export const Navigation: FC = () => {
   const showDropdown = (key: string) => setIsOpen(key);
   const hideDropdown = () => setIsOpen(false);
   return (
-    <StyledNavbar expand="lg">
+    <StyledNavbar expand="xl">
       <Container>
         <Brand href="/home" className="title">
-          {title}
+          <Title>{title}</Title>
         </Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <StyledCollapse id="basic-navbar-nav">
@@ -149,4 +149,8 @@ const Button = styled(NavButton)`
     color: #394039;!important;
     font-weight: 300;
   }
+`;
+
+const Title = styled.h1`
+  font-size: 1.5rem;
 `;

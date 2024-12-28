@@ -1,12 +1,5 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import { useLocation } from "react-router-dom";
-import { Masses } from "../Sacraments/Masses/Masses";
-import { Baptism } from "../Sacraments/Baptism/Baptism";
-import { Confession } from "../Sacraments/Confession/Confession";
-import { Communion } from "../Sacraments/Communion/Communion";
-import { Confirmation } from "../Sacraments/Confirmation/Confirmation";
-import { Marriage } from "../Sacraments/Marriage/Marriage";
-import { Sick } from "../Sacraments/Sick/Sick";
 import { Office } from "./Office/Office";
 import { ParishHistory } from "./ParishHistory/ParishHistory";
 import { Groups } from "./Groups/Groups";
@@ -20,6 +13,7 @@ import { navList } from "../../utils/navList";
 import Row from "react-bootstrap/Row";
 import styled from "styled-components";
 import Nav from "react-bootstrap/Nav";
+import { Helmet } from "react-helmet";
 
 export const Parish: FC = () => {
   const location = useLocation();
@@ -46,6 +40,13 @@ export const Parish: FC = () => {
   };
   return (
     <div>
+      <Helmet>
+        <title>Parafia Świętego Michala Archanioła w Blachowni Parafia</title>
+        <meta
+          name="description"
+          content="Parafia Świętego Michala Archanioła w Blachowni  - informacje o parafii"
+        />
+      </Helmet>
       <Tab.Container defaultActiveKey={nameOfPath}>
         <FirstRow>
           <Col>
@@ -53,7 +54,7 @@ export const Parish: FC = () => {
               variant="pills"
               className="flex-wrap align-items-center justify-content-center"
             >
-              {navList[2].options.map((option) => (
+              {navList[3].options.map((option) => (
                 <SingleItem key={option.href}>
                   <SingleButton eventKey={option.href}>
                     {option.title}
@@ -65,7 +66,7 @@ export const Parish: FC = () => {
         </FirstRow>
         <Row>
           <Tab.Content>
-            {navList[2].options.map((option) => (
+            {navList[3].options.map((option) => (
               <Tab.Pane
                 key={option.href}
                 eventKey={option.href}

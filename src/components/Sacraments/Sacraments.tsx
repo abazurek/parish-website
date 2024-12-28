@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import { useLocation } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
@@ -13,6 +13,7 @@ import { Communion } from "./Communion/Communion";
 import { Confirmation } from "./Confirmation/Confirmation";
 import { Marriage } from "./Marriage/Marriage";
 import { Sick } from "./Sick/Sick";
+import { Helmet } from "react-helmet";
 export const Sacraments: FC = () => {
   const location = useLocation();
   const nameOfPath = location.pathname.substring(1);
@@ -39,6 +40,15 @@ export const Sacraments: FC = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>
+          Parafia Świętego Michala Archanioła w Blachowni Sakramenty
+        </title>
+        <meta
+          name="description"
+          content="Parafia Świętego Michala Archanioła Blachownia w Blachowni -  skaramenty:chrzest, bierzmowanie,małżeńśtwo, kapłaństwo, namaszczenie chorych, msze święte, spowiedź święta"
+        />
+      </Helmet>
       <Tab.Container defaultActiveKey={nameOfPath}>
         <FirstRow>
           <Col>
