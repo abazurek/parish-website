@@ -35,7 +35,7 @@ export const WardLayout: FC = () => {
               <Route
                 path="/visits"
                 element={
-                  <SubsiteLayout title="Porządek kolędy na nadchodzący tydzień:">
+                  <SubsiteLayout title="Porządek kolędy 2025r. ">
                     <Visits />
                   </SubsiteLayout>
                 }

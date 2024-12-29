@@ -10,7 +10,7 @@ export const Visits: FC = () => {
         <title>Parafia Świętego Michala Archanioła w Blachowni Kolęda</title>
         <meta
           name="description"
-          content="Parafia Świętego Michala Archanioła w Blachowni  - porządek kolędy na nadchodzący tydzień"
+          content="Parafia Świętego Michala Archanioła w Blachowni  - porządek kolędy na rok 2025"
         />
       </Helmet>
       {visitsInfo.map((element) => (
