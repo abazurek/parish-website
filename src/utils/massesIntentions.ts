@@ -1,156 +1,6 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "29.12.24r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:30",
-        intention: "+Antoniego /3 r. śm./, Stanisławę Wilków",
-      },
-      {
-        hour: "9:30",
-        intention: "+Bolesława /43 r. śm./, Helenę, Eugeniusza Trybulców",
-      },
-      {
-        hour: "10:45",
-        intention: "+Genowefę Tomasik /od córki Barbary i sąsiadki Lidii/",
-      },
-      {
-        hour: "12:00",
-        intention: "O Boże błogosławieństwo dla ks. Dawida z racji imienin",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Sylwestrę, Zygmunta Wilków /od Jadwigi i Tadeusza Łysakowskich z rodz./",
-      },
-    ],
-  },
-  {
-    day: "Poniedziałek",
-    date: "30.12.24r.",
-    addInfo: "",
-    intensions: [
-      { hour: "7:00", intention: "+Zofię Złośnik /od Jolanty Kudej z rodz./" },
-      {
-        hour: "7:30",
-        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Kazimierę Rudnicką /od rodziny/",
-      },
-    ],
-  },
-  {
-    day: "Wtorek",
-    date: "31.12.24r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Dusze w Czyśćcu cierpiące",
-      },
-      {
-        hour: "7:30",
-        intention: "+Przemysława Wolnego /7 r. śm./",
-      },
-      {
-        hour: "16:00",
-        intention: "Dzienkczynno - błagalna na zakończenie roku",
-      },
-      // {
-      //   hour: "17:00",
-      //   intention: "+Kazimierę Rudnicką /od rodz. Plebaniaków z USA",
-      // },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "01.01.25r.",
-    addInfo: "Uroczystość Świętej Bożej Rodzicielki",
-    intensions: [
-      {
-        hour: "9:30",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "10:45",
-        intention: "+Ingę Zawadzką /od synowej Bożeny i wnuczki Sylwii/",
-      },
-      {
-        hour: "12:00",
-        intention: "Za Parafian",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "O Boże bł., zdrowie i wszelkie łaski dla Lei z racji 1 r. urodzin.",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "02.01.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "7:30",
-        intention: "Za kapłanów",
-      },
-      {
-        hour: "17:00",
-        intention: "+Feliksę Gielniewską /od księży/",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "03.01.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "O Boże bł., zdrowie i wszelkie łaski dla Teresy z racji urodzin",
-      },
-      {
-        hour: "17:00",
-        intention: "Zbiorowa",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "04.01.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Zofię Worek",
-      },
-      {
-        hour: "7:30",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Henrykę /1 r. śm./, Stanisława /16 r. śm./ Strubaków /od córki Eulalii, wnuczki Anety i prawnuków Ady i Dawida/ +Adama Mozielowskiego /od żony/",
-      },
-    ],
-  },
-  {
-    day: "Niedziela",
     date: "05.01.25r.",
     addInfo: "",
     intensions: [
@@ -171,11 +21,166 @@ export const massesIntentions = [
       {
         hour: "12:00",
         intention:
-          "W podziękowaniu za otrzymane dary z prośbą o Boże bł., zdrowie i wszelkie łaski dla Ryszarda Stefani z racji 80 r. urodzin",
+          "W podziękowaniu Panu Bogu za wszelkie łaski i z prośbą o Boże bł. i zdrowie dla Ryszarda Stefani z racji 80 urodzin",
       },
       {
         hour: "17:00",
         intention: "+Leszka Grajcara /od Iwony i córek Ani i Agnieszki/",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "06.01.25r.",
+    addInfo: "Uroczystość Objawienia Pańskiego",
+    intensions: [
+      { hour: "7:00", intention: "+Witolda Leśniczka" },
+      // {
+      //   hour: "7:30",
+      //   intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
+      // },
+      // {
+      //   hour: "17:00",
+      //   intention: "+Kazimierę Rudnicką /od rodziny/",
+      // },
+      {
+        hour: "9:30",
+        intention: "+Janinę Kokot /od wnuczki Ani z mężem/",
+      },
+      {
+        hour: "10:45",
+        intention:
+          "+Jerzego Pyde /od syna Sławomira, Joanny, Sary Adrianny i Tymoteusza/",
+      },
+      {
+        hour: "12:00",
+        intention: "Za Parafian",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "+Zofię, Stefana Tukajów z rodzicami i rodzeństwem, Ryszarda Soszyńskiego z rodzicami",
+      },
+    ],
+  },
+  {
+    day: "Wtorek",
+    date: "07.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Sylwestra Lamcha /od chrześnicy Haliny z rodz./",
+      },
+      {
+        hour: "7:30",
+        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Witolda Leśniczka",
+      },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "08.01.25r.",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Stanisława Matuszczyka",
+      },
+      {
+        hour: "7:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "17:00",
+        intention: "Zbiorowa",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "09.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Sylwestra Lamcha /od brata Eugeniusza z rodz./",
+      },
+      {
+        hour: "7:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "17:00",
+        intention: "+Mirosława Rakusa /od szwagierki Ani z męzem/",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "10.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Waldemara Gębusia /od syna Dariusza z żoną Marzeną/",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "11.01.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Henryka, Roberta Okularczyków, Sabinę, Czesława Osyrów",
+      },
+    ],
+  },
+  {
+    day: "Niedziela",
+    date: "12.01.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:30",
+        intention: "rez. p. Janczak",
+      },
+      {
+        hour: "9:30",
+        intention: "rez. p. Kulasiewicz",
+      },
+      {
+        hour: "10:45",
+        intention: "+Janinę Kokot /od swatki Alojzy/",
+      },
+      {
+        hour: "12:00",
+        intention: "Za parafian",
+      },
+      {
+        hour: "17:00",
+        intention: "+Witolda Leśniczka",
       },
     ],
   },

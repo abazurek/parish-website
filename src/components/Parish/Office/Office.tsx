@@ -5,7 +5,7 @@ export const Office: FC = () => {
   return (
     <div>
       <p>
-        Kancelaria czynna {cardsDescription[2].addInfo[0].title} w godinach{" "}
+        Kancelaria czynna {cardsDescription[2].addInfo[0].title} w godzinach{" "}
         {cardsDescription[2].addInfo[0].desc}
       </p>
       <p>
