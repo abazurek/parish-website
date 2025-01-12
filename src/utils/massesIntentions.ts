@@ -1,76 +1,55 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "05.01.25r.",
+    date: "12.01.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Witolda Leśniczka",
+        intention: "+Zofię, Piotra, Antoniego Kalembów",
       },
       {
         hour: "9:30",
-        intention:
-          "+Natalię, Władysława Cichoniów, Genowefę, Edwarda Tajchmanów",
+        intention: "+Zofię, Tadeusza Pajewskich",
       },
       {
         hour: "10:45",
-        intention:
-          "+Mariannę Kała /1 r. śm., od córki Iwony z mężem i dziećmi/",
+        intention: "+Janinę Kokot /od swatki Alojzy/",
       },
       {
         hour: "12:00",
-        intention:
-          "W podziękowaniu Panu Bogu za wszelkie łaski i z prośbą o Boże bł. i zdrowie dla Ryszarda Stefani z racji 80 urodzin",
+        intention: "W intencji dzieci ochrzczonych w 2024r.",
       },
       {
         hour: "17:00",
-        intention: "+Leszka Grajcara /od Iwony i córek Ani i Agnieszki/",
+        intention: "+Witolda Leśniczka",
       },
     ],
   },
   {
     day: "Poniedziałek",
-    date: "06.01.25r.",
-    addInfo: "Uroczystość Objawienia Pańskiego",
+    date: "13.01.25r.",
+    addInfo: "",
     intensions: [
       { hour: "7:00", intention: "+Witolda Leśniczka" },
-      // {
-      //   hour: "7:30",
-      //   intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
-      // },
-      // {
-      //   hour: "17:00",
-      //   intention: "+Kazimierę Rudnicką /od rodziny/",
-      // },
       {
-        hour: "9:30",
-        intention: "+Janinę Kokot /od wnuczki Ani z mężem/",
-      },
-      {
-        hour: "10:45",
-        intention:
-          "+Jerzego Pyde /od syna Sławomira, Joanny, Sary Adrianny i Tymoteusza/",
-      },
-      {
-        hour: "12:00",
-        intention: "Za Parafian",
+        hour: "7:30",
+        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
       },
       {
         hour: "17:00",
-        intention:
-          "+Zofię, Stefana Tukajów z rodzicami i rodzeństwem, Ryszarda Soszyńskiego z rodzicami",
+        intention: "+Sylwestra Lamcha /od żony Henryki/",
       },
     ],
   },
   {
     day: "Wtorek",
-    date: "07.01.25.",
+    date: "14.01.25.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Sylwestra Lamcha /od chrześnicy Haliny z rodz./",
+        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
       },
       {
         hour: "7:30",
@@ -84,11 +63,50 @@ export const massesIntentions = [
   },
   {
     day: "Środa",
-    date: "08.01.25r.",
+    date: "15.01.25r.",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Stanisława Matuszczyka",
+        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Witolda Leśniczka",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "16.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention: "+Sylwestra Lamcha /od syna Mariusza z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention: "+Wacława Puchałę /6 r. śm., od dzieci i wnucząt/",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "17.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention:
+          "+Zenona, Marię, Stanisława, Anastazję, Elżbietę Wilków, Katarzynę, Jana, Tadeusza Paruzelów, Katarzynę Korzonek, Kazimierę Wolnikowską, Stanisławę Ulfik",
       },
       {
         hour: "7:30",
@@ -101,46 +119,8 @@ export const massesIntentions = [
     ],
   },
   {
-    day: "Czwartek",
-    date: "09.01.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Sylwestra Lamcha /od brata Eugeniusza z rodz./",
-      },
-      {
-        hour: "7:30",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "17:00",
-        intention: "+Mirosława Rakusa /od szwagierki Ani z męzem/",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "10.01.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "7:30",
-        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Waldemara Gębusia /od syna Dariusza z żoną Marzeną/",
-      },
-    ],
-  },
-  {
     day: "Sobota",
-    date: "11.01.25r.",
+    date: "18.01.25r.",
     addInfo: "",
     intensions: [
       {
@@ -153,26 +133,29 @@ export const massesIntentions = [
       },
       {
         hour: "17:00",
-        intention: "+Henryka, Roberta Okularczyków, Sabinę, Czesława Osyrów",
+        intention:
+          "Jubileusze małżeńskie: /Alina i Wacław Matuszewscy 60 r. ślubu/",
       },
     ],
   },
   {
     day: "Niedziela",
-    date: "12.01.25r.",
+    date: "19.01.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "rez. p. Janczak",
+        intention: "+Witolda Leśniczka",
       },
       {
         hour: "9:30",
-        intention: "rez. p. Kulasiewicz",
+        intention:
+          "+Leokadię, Bernarda, Bonifacego, Nikodema Ujmów, Reginę Kulej",
       },
       {
         hour: "10:45",
-        intention: "+Janinę Kokot /od swatki Alojzy/",
+        intention:
+          "Urodzinowa: /Krystian Gębuś 18 r. ur., od rodziców i rodzeństwa/ /Mikołaj Ścisłowski 14 r. ur./",
       },
       {
         hour: "12:00",
@@ -180,7 +163,7 @@ export const massesIntentions = [
       },
       {
         hour: "17:00",
-        intention: "+Witolda Leśniczka",
+        intention: "+Ryszarda, Franciszka Leśko",
       },
     ],
   },

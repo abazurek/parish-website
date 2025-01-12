@@ -5,7 +5,9 @@ import styled from "styled-components";
 export const AdsInfo: FC = () => {
   return (
     <div>
-      <Title>ogłoszenia {adsInfo.date}</Title>
+      <Title>
+        <Text>ogłoszenia {adsInfo.date}</Text>r.
+      </Title>
       {adsInfo.info.map((element) => (
         <p key={adsInfo.info.indexOf(element)}>{element}</p>
       ))}
@@ -15,7 +17,9 @@ export const AdsInfo: FC = () => {
 
 const Title = styled.div`
   font-size: 2rem;
-  text-transform: uppercase;
   font-weight: 600;
   margin-bottom: 2rem;
+`;
+const Text = styled.span`
+  text-transform: uppercase;
 `;
