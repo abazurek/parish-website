@@ -1,12 +1,12 @@
 export const adsInfo = {
-  date: "12 I 2025",
+  date: "19 I 2025",
   info: [
-    "Przezywamy niedzielę Chrztu Pańskiego kończącą okres Bożego Narodzenia.",
-    "Dziś na mszy św. o godz. 12.00 będziemy modlić się za wszystkie dzieci ochrzczone w naszej parafii w 2024 r. Zapraszamy rodziców z dziećmi i ich bliskich.",
-    "Także dziś na mszy św. o godz. 12.00 będzie koncert kolęd w wykonaniu chóru „Alla Breve” z Częstochowy. Natomiast za tydzień o godz. 12.00 będzie koncert w wykonaniu zespołu „Flow” z Gorzelni. Zachęcamy do wysłuchania.",
-    "W nadchodzącym tygodniu będą msze św. zbiorowe: w piątek o godz. 17.00 ku czci Miłosierdzia Bożego, w sobotę o godz. 17.00 na rocznice sakramentu małżeństwa a w przyszłą niedzielę o godz. 10.45 na rocznice urodzin.",
-    "Taca w przyszłą niedzielę przeznaczona będzie na inwestycje parafialne. Do spłacenia ogrzewania w kościele zostało 20 tys. zł. Bóg zapłać za składane ofiary.",
-    "Dziękujemy za ufundowanie renowacji ławek rodz. Zawis, Kędziora i Witczuk. Ofiary na ten cel złożyli także: rodz. Tyflów; rodz. Lizurów. Bóg zapłać.",
-    "Porządek kolędy na nadchodzący tydzień: poniedziałek 13 I – godz. 9.00: ul. 1 Maja, z dwóch kierunków wtorek 14 I – godz. 9.00: ul. Sportowa nry 2, 4, 6 . godz. 15.00: ul. Cmentarna, Poziomkowa, Krótka, Gołębia, Polna . i Młyńska środa 15 I – godz. 9.00: ul. Korczaka nry 5, 6, 6A i 8 . godz. 15.00 ul. Wąska, Księżycowa, Handlowa, Partyzantów . i Skłodowskiej czwartek 16 I – godz. 9.00 ul. Żeromskiego nry 5, 5A, 6, 7, 7A i 8; . godz.15.00 ul. Korczaka nry 1, 2, 3 i 4 piątek 17 I – godz. 9.00: ul. Starowiejska, nry nieparzyste, z dwóch kierunków sobota 18 I – godz. 9.00: ul. Starowiejska, nry parzyste, z dwóch kierunków",
+    "Przeżywamy II niedzielę zwykłą.",
+    "Od soboty rozpoczął się w całym Kościele Tydzień Modlitw o Jedność Chrześcijan, tzw. Tydzień Ekumeniczny. Pamiętajmy w naszych modlitwach o ważnej sprawie zjednoczenia wszystkich wyznawców Chrystusa.",
+    "We wtorek o godz. 17.00 będzie msza św. zbiorowa za wstawiennictwem św. Antoniego.",
+    "Dziękujemy za ofiary na renowację ławek. Ofiary złożyli: rodz. Stolarskich; Maria Czech; rodz. Zająców; koło Ż.R. p.w. MB Różańcowej. Bóg zapłać.",
+    "Przypominamy o organizowanej pielgrzymce do Grecji. Można się zapisywać do końca stycznia.",
+    "Siostra Klara, nasza organistka zaprasza wszystkich chętnych, czujących się na siłach do śpiewania, do chóru parafialnego, by jego skład się powiększył. I drugie zaproszenie: siostra organizuje Koło Przyjaciół Radia Maryja. Najbliższe spotkanie dla chętnych będzie w kościele w przyszłą sobotę, 25 stycznia po mszach św. porannych o godz. 8.00.",
+    "Porządek kolędy na nadchodzący tydzień: poniedziałek 20 I – godz. 9.00: 1 kapłan ul. Bankowa, nry 2, 3, 4, 6, 7, 11 . 2 kapłan ul. Żeromskiego nry 1, 1A, 2, 2A, 3, 3A, 4 wtorek 21 I – go dz. 9.00: ul. Bankowa nry 8, 9, 10 . godz. 15.00: Plac Konstytucji nry 1, 2, 3, 4 środa 22 I – godz. 9.00: ul. Kubowicza nry 1, 2, 3, 4 . godz. 15.00 Plac Konstytucji nry 5, 6, 7, 8 czwartek 23 I – godz. 9.00 ul. Miodowa nry 6 i 6A . godz.15.00 ul. Kubowicza nry 5, 6, 8 piątek 24 I – godz. 9.00: ul. Miodowa: 1 kapłan nry 4, 5, 5A; 2 kapłan nry 1, 3, 7 ",
   ],
 };

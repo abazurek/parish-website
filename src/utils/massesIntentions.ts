@@ -1,145 +1,6 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "12.01.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:30",
-        intention: "+Zofię, Piotra, Antoniego Kalembów",
-      },
-      {
-        hour: "9:30",
-        intention: "+Zofię, Tadeusza Pajewskich",
-      },
-      {
-        hour: "10:45",
-        intention: "+Janinę Kokot /od swatki Alojzy/",
-      },
-      {
-        hour: "12:00",
-        intention: "W intencji dzieci ochrzczonych w 2024r.",
-      },
-      {
-        hour: "17:00",
-        intention: "+Witolda Leśniczka",
-      },
-    ],
-  },
-  {
-    day: "Poniedziałek",
-    date: "13.01.25r.",
-    addInfo: "",
-    intensions: [
-      { hour: "7:00", intention: "+Witolda Leśniczka" },
-      {
-        hour: "7:30",
-        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Sylwestra Lamcha /od żony Henryki/",
-      },
-    ],
-  },
-  {
-    day: "Wtorek",
-    date: "14.01.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Witolda Leśniczka",
-      },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "15.01.25r.",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Witolda Leśniczka",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "16.01.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "7:30",
-        intention: "+Sylwestra Lamcha /od syna Mariusza z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "+Wacława Puchałę /6 r. śm., od dzieci i wnucząt/",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "17.01.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention:
-          "+Zenona, Marię, Stanisława, Anastazję, Elżbietę Wilków, Katarzynę, Jana, Tadeusza Paruzelów, Katarzynę Korzonek, Kazimierę Wolnikowską, Stanisławę Ulfik",
-      },
-      {
-        hour: "7:30",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "17:00",
-        intention: "Zbiorowa",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "18.01.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Witolda Leśniczka",
-      },
-      {
-        hour: "7:30",
-        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "Jubileusze małżeńskie: /Alina i Wacław Matuszewscy 60 r. ślubu/",
-      },
-    ],
-  },
-  {
-    day: "Niedziela",
     date: "19.01.25r.",
     addInfo: "",
     intensions: [
@@ -155,7 +16,7 @@ export const massesIntentions = [
       {
         hour: "10:45",
         intention:
-          "Urodzinowa: /Krystian Gębuś 18 r. ur., od rodziców i rodzeństwa/ /Mikołaj Ścisłowski 14 r. ur./",
+          "/Krystian Gębuś 18 r. ur., od rodziców i rodzeństwa/ /Mikołaj Ścisłowski 14 r. ur./ /Urszula Żurek 60 r. ur./ /Emilia Parkitna 8 r. ur/ /Ania 12 r. ur./ /Małgorzata 34 r. ur. / / Przemysław 34 r. ur./",
       },
       {
         hour: "12:00",
@@ -164,6 +25,147 @@ export const massesIntentions = [
       {
         hour: "17:00",
         intention: "+Ryszarda, Franciszka Leśko",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "20.01.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "17:00",
+        intention: "+Mirosława Rakusa /od s. Klary i Chóru Parafialnego/",
+      },
+    ],
+  },
+  {
+    day: "Wtorek",
+    date: "21.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention: "+Mirosława Rakusa /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "Zbiorowa",
+      },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "22.01.25r.",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "17:00",
+        intention: "+Janinę Kokot /od wnuka Wojciecha z żoną/",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "23.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Janinę Kokot /od wnuczki Agnieszki z rodz./",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "24.01.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "O Boże bł., i zdrowie dla Haliny Słabkowskiej z racji 90 r. urodzin",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "25.01.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Witolda Leśniczka",
+      },
+      {
+        hour: "7:30",
+        intention: "+Roberta Nowiszewskiego /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Czesława Łebka /9 r. śm., od żony z dziećmi/",
+      },
+    ],
+  },
+  {
+    day: "Niedziela",
+    date: "26.01.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:30",
+        intention: "+Sabinę Napieraj",
+      },
+      {
+        hour: "9:30",
+        intention: "+Alinę, Bronisława Gazdów, Zbigniewa Ujmę",
+      },
+      {
+        hour: "10:45",
+        intention: "+Ingę Zawadzką /od wnuka Adriana z Julią/",
+      },
+      {
+        hour: "12:00",
+        intention: "Za parafian",
+      },
+      {
+        hour: "17:00",
+        intention: "+Witolda Leśniczka",
       },
     ],
   },
