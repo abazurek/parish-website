@@ -1,150 +1,6 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "09.02.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:30",
-        intention: "Za Parafian",
-      },
-      {
-        hour: "9:30",
-        intention: "+Irenę, Antoniego Mszyców",
-      },
-      {
-        hour: "10:45",
-        intention: "+Antoninę Krysiak, Wiesława Wojtana",
-      },
-      {
-        hour: "12:00",
-        intention: "+Władysławę /12 r. śm./, Władysława Merdzików",
-      },
-      {
-        hour: "17:00",
-        intention: "+Franciszka, Ryszarda Leśko",
-      },
-    ],
-  },
-  {
-    day: "Poniedziałek",
-    date: "10.02.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Elżbietę Borowską /od rodz. Małasiewiczów/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Ryszarda Chłąda /od Janiny i Piotra Jagielskich/",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Roberta Nowiszewskiego /od kolegi Andrzeja Jamrozińskiego z rodz./",
-      },
-    ],
-  },
-  {
-    day: "Wtorek",
-    date: "11.02.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Danielę Gosławską /od siostrzenicy Eli/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Elżbietę Borowską /od chrześnicy Magdaleny z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "Zbiorowa",
-      },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "12.02.25r.",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Mirosława Korbla /od żony Jolanty z córką Justyną/",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "+Elżbietę Borowską /od Kazimierza Słabika i Zofii Bruzda z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "+Antoniego, Andrzeja Cieślików",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "13.02.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jana Korbuta /od brata Jerzego z żoną Ewą/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Elżbietę Borowską /od rodz. Parkitnych/",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Roberta Nowiszewskiego /od Jadwigi, Andrzeja, Janka Nowaków/",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "14.02.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention:
-          "O Boże bł., zdrowie i wszelkie łaski dla Magdaleny z okazji urodzin",
-      },
-      {
-        hour: "7:30",
-        intention: "+Jana Korbuta /od siostry Krystyny z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "rez. Grabara",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "15.02.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Elżbietę Borowską /od Wojciecha Toll z rodz./",
-      },
-      {
-        hour: "7:30",
-        intention: "+Mirosława Korbla /od syna Dariusza z Adrianną/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Józefa, Krystynę, Mikołaja Wineckich",
-      },
-    ],
-  },
-  {
-    day: "Niedziela",
     date: "16.02.25r.",
     addInfo: "",
     intensions: [
@@ -167,6 +23,150 @@ export const massesIntentions = [
       {
         hour: "17:00",
         intention: "+Józefa Bisia /2 r. śm., od żony z rodz./",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "17.02.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Mirosława Korbla /od Krystyny i Jerzego Ceglarków/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Jana Korbuta /od Krzysztofa i Agnieszki z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention: "+Annę Mularz /od córki Danuty z mężem i dziećmi/",
+      },
+    ],
+  },
+  {
+    day: "Wtorek",
+    date: "18.02.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Andrzeja Bryłę /od żony Grażyny/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Mariana Kasprzyka /od rodz. Zielonków/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Stefana Klechę",
+      },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "19.02.25r.",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Andrzeja Bryłę /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Krystynę Wilk /2 r. śm./",
+      },
+      {
+        hour: "17:00",
+        intention: "+Mariana Kicińskiego /od żony Genowefy/",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "20.02.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Mariana Kasprzyka /od żony/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Emilię Pyda /od rodz. Małasiewiczów/",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "+Mirosława Korbla /od Barbary i Tadeusza Osuchowskich z rodz./",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "21.02.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "rez. Kwasiborska",
+      },
+      {
+        hour: "7:30",
+        intention: "+Dusze w Czysćcu cierpiące",
+      },
+      {
+        hour: "17:00",
+        intention: "Zbiorowa",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "22.02.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Krystynę Konstanciak",
+      },
+      {
+        hour: "7:30",
+        intention:
+          "+Władysławę, Bolesława Bednarków, Teofilę, Stanisława Świerczyków",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "O Boże bł., zdrowie i wszelkie łaski dla Marceli z racji 31 r. urodzin",
+      },
+    ],
+  },
+  {
+    day: "Niedziela",
+    date: "23.02.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:30",
+        intention: "+Józefa Miklara /6 r. śm./",
+      },
+      {
+        hour: "9:30",
+        intention:
+          "+Cecylię, Władysława Kromołowskich, Antoniego, Stanisławę Wilków",
+      },
+      {
+        hour: "10:45",
+        intention: "+Annę, Eugeniusza Grabków, Monikę, Mieczysława Gierów",
+      },
+      {
+        hour: "12:00",
+        intention: "Za parafian",
+      },
+      {
+        hour: "17:00",
+        intention: "+Wandę /r. śm./, Monikę Szewczyk",
       },
     ],
   },
