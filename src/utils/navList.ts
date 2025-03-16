@@ -8,11 +8,11 @@ export const navList: {
     title: "Aktualności",
     options: [],
   },
-  {
-    key: "visits",
-    title: "Kolęda",
-    options: [],
-  },
+  // {
+  //   key: "visits",
+  //   title: "Kolęda",
+  //   options: [],
+  // },
   {
     key: "ads",
     title: "Ogłoszenia",

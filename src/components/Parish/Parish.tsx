@@ -54,7 +54,7 @@ export const Parish: FC = () => {
               variant="pills"
               className="flex-wrap align-items-center justify-content-center"
             >
-              {navList[3].options.map((option) => (
+              {navList[2].options.map((option) => (
                 <SingleItem key={option.href}>
                   <SingleButton eventKey={option.href}>
                     {option.title}
@@ -66,7 +66,7 @@ export const Parish: FC = () => {
         </FirstRow>
         <Row>
           <Tab.Content>
-            {navList[3].options.map((option) => (
+            {navList[2].options.map((option) => (
               <Tab.Pane
                 key={option.href}
                 eventKey={option.href}

@@ -56,7 +56,7 @@ export const Sacraments: FC = () => {
               variant="pills"
               className="flex-wrap align-items-center justify-content-center"
             >
-              {navList[4].options.map((option) => (
+              {navList[3].options.map((option) => (
                 <SingleItem key={option.href}>
                   <SingleButton eventKey={option.href}>
                     {option.title}
@@ -68,7 +68,7 @@ export const Sacraments: FC = () => {
         </FirstRow>
         <Row>
           <Tab.Content>
-            {navList[4].options.map((option) => (
+            {navList[3].options.map((option) => (
               <Tab.Pane
                 key={option.href}
                 eventKey={option.href}
