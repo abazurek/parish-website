@@ -1,20 +1,21 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "16.02.25r.",
+    date: "09.03.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Zofię, Piotra, Antoniego Kalemba",
+        intention: "+Bożenę Stefani /od męża z rodz./",
       },
       {
         hour: "9:30",
-        intention: "+Walętynę Pawłow",
+        intention: "+Stefana, Zofię, Stanisława Kulasiewiczów",
       },
       {
         hour: "10:45",
-        intention: "Urodzinowa: /Kornelia Koralik 10 r. urodzin/",
+        intention:
+          "+Jana, Władysławę Pięt, Marię, Mariusza Kluczniaków, Gustawa Dusińskiego",
       },
       {
         hour: "12:00",
@@ -22,98 +23,62 @@ export const massesIntentions = [
       },
       {
         hour: "17:00",
-        intention: "+Józefa Bisia /2 r. śm., od żony z rodz./",
+        intention:
+          "+Henrykę, Marię, Stanisława, Jakuba, Kazimierza Ujmów, Annę, Zdzisława Skowronów",
       },
     ],
   },
   {
     day: "Poniedziałek",
-    date: "17.02.25r.",
+    date: "10.03.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Mirosława Korbla /od Krystyny i Jerzego Ceglarków/",
+        intention: "+Marikę Domsha /od uczest. pogrzebu/",
       },
       {
         hour: "7:30",
-        intention: "+Jana Korbuta /od Krzysztofa i Agnieszki z rodz./",
+        intention: "+Tadeusza Słupianka /od rodz. Plutów/",
       },
       {
         hour: "17:00",
-        intention: "+Annę Mularz /od córki Danuty z mężem i dziećmi/",
+        intention:
+          "+Janinę Cierpiał/10 r. śm./, Benedykta Majchrzaka /27 r. śm., od córki Zdzisławy z mężem Henrykiem, syna Mariusza, wnuczki Barbary, Prawnuka Kamila z żoną Ewą i córką Zuzanną/",
       },
     ],
   },
   {
     day: "Wtorek",
-    date: "18.02.25.",
+    date: "11.03.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Andrzeja Bryłę /od żony Grażyny/",
+        intention: "+Jana Kaletę /od żony/",
       },
       {
         hour: "7:30",
-        intention: "+Mariana Kasprzyka /od rodz. Zielonków/",
+        intention: "+Marikę Domsha /od uczest. pogrzebu/",
       },
       {
         hour: "17:00",
-        intention: "+Stefana Klechę",
+        intention: "+Mariana Kicińskiego /od syna Tomasza z żoną Eweliną/",
       },
     ],
   },
   {
     day: "Środa",
-    date: "19.02.25r.",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Andrzeja Bryłę /od uczest. pogrzebu/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Krystynę Wilk /2 r. śm./",
-      },
-      {
-        hour: "17:00",
-        intention: "+Mariana Kicińskiego /od żony Genowefy/",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "20.02.25.",
+    date: "12.03.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Mariana Kasprzyka /od żony/",
+        intention: "+Helenę Wolską /od uczest. pogrzebu./",
       },
       {
-        hour: "7:30",
-        intention: "+Emilię Pyda /od rodz. Małasiewiczów/",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Mirosława Korbla /od Barbary i Tadeusza Osuchowskich z rodz./",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "21.02.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "rez. Kwasiborska",
-      },
-      {
-        hour: "7:30",
-        intention: "+Dusze w Czysćcu cierpiące",
+        hour: "07:30",
+        intention: "+Alfreda Cierpiała /od rodz. Zatoniów i Jagielskich/",
       },
       {
         hour: "17:00",
@@ -122,43 +87,81 @@ export const massesIntentions = [
     ],
   },
   {
-    day: "Sobota",
-    date: "22.02.25r.",
+    day: "Czwartek",
+    date: "13.03.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Krystynę Konstanciak",
+        intention: "+Marię Domsha /od uczest. pogrzebu/",
       },
       {
         hour: "7:30",
         intention:
-          "+Władysławę, Bolesława Bednarków, Teofilę, Stanisława Świerczyków",
+          "W podziękowaniu Panu Bogu i Matce Najświętszej za uzdrowienie Józefa",
       },
       {
         hour: "17:00",
-        intention:
-          "O Boże bł., zdrowie i wszelkie łaski dla Marceli z racji 31 r. urodzin",
+        intention: "+Józefa, Jolantę, Ewę, Stanisława Nowaków",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "14.03.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Jana Kaletę /od wnuka Adriana z żoną/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Helenę Wolską /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Mariana Kicińskiego /od wnuczki Eweliny z mężem Kamilem/",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "15.03.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Helenę Wolską /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Mariana Kasprzyka /od syna Krzysztofa z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention: "+Wiesławę Pydę /20 r. śm./, Marię Gajowczyk /20 r. śm./",
       },
     ],
   },
   {
     day: "Niedziela",
-    date: "23.02.25r.",
+    date: "16.03.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Józefa Miklara /6 r. śm./",
+        intention: "+Zofię, Piotra, Antoniego Kalembów",
       },
       {
         hour: "9:30",
         intention:
-          "+Cecylię, Władysława Kromołowskich, Antoniego, Stanisławę Wilków",
+          "+Bożenę, Jadwigę, Grzegorza, Janinę, Henryka, Józefę, Tomasza Nowaków, Józefa, Bronisławę Ujmów",
       },
       {
         hour: "10:45",
-        intention: "+Annę, Eugeniusza Grabków, Monikę, Mieczysława Gierów",
+        intention:
+          "Urodzinowa: /Tomasz Dusiński 33 r. ur.//Maciej Nogal 10 r. ur.//Zbigniew 70 r. ur.//Ania Jadczyk 18 r. ur.//Michał 17 r. ur./",
       },
       {
         hour: "12:00",
@@ -166,7 +169,7 @@ export const massesIntentions = [
       },
       {
         hour: "17:00",
-        intention: "+Wandę /r. śm./, Monikę Szewczyk",
+        intention: "+Andrzeja Zawadzkiego /2 r. śm., od żony z dziećmi/",
       },
     ],
   },

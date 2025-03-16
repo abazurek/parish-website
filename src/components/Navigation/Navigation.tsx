@@ -91,6 +91,8 @@ const StyledNavDropdown = styled(NavDropdown)`
   font-size: 1rem;
   border-top-right-radius: 0.25rem;
   border-top-left-radius: 0.25rem;
+  padding-right: 8px;
+  padding-left: 8px;
   &:hover {
     background-color: rgba(57, 64, 57);
     color: #e4e7e0;

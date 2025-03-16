@@ -9,7 +9,7 @@ import { Sacraments } from "../Sacraments/Sacraments";
 import { SubsiteLayout } from "../SubsiteLayout/SubsiteLayout";
 import { Contact } from "../Contact/Contact";
 import { Parish } from "../Parish/Parish";
-import { Visits } from "../Visits/Visits";
+import { News } from "../News/News";
 
 export const WardLayout: FC = () => {
   const location = useLocation();
@@ -18,30 +18,37 @@ export const WardLayout: FC = () => {
     <Wrapper>
       <Header />
       <InfoWrapper
-        $isWisible={location.pathname !== "/" && location.pathname !== "/home"}
+        $isWisible={
+          location.pathname !== "/" &&
+          location.pathname !== "/aktualnosci" &&
+          location.pathname !== "/home"
+        }
       >
-        {location.pathname !== "/" && location.pathname !== "/home" && (
-          <TitleBanner />
-        )}
+        {location.pathname !== "/" &&
+          location.pathname !== "/aktualnosci" &&
+          location.pathname !== "/home" && <TitleBanner />}
         <InfoBox
           $isWisible={
-            location.pathname !== "/" && location.pathname !== "/home"
+            location.pathname !== "/" &&
+            location.pathname !== "/aktualnosci" &&
+            location.pathname !== "/home"
           }
         >
           <Container>
             <Routes>
               <Route path="/home" element={<HomeLayout />} />
               <Route path="/" element={<HomeLayout />} />
+              <Route path="/aktualnosci" element={<News />} />
+              {/*<Route*/}
+              {/*  path="/visits"*/}
+              {/*  element={*/}
+              {/*    <SubsiteLayout title="Porządek kolędy 2025r. ">*/}
+              {/*      <Visits />*/}
+              {/*    </SubsiteLayout>*/}
+              {/*  }*/}
+              {/*/>*/}
               <Route
-                path="/visits"
-                element={
-                  <SubsiteLayout title="Porządek kolędy 2025r. ">
-                    <Visits />
-                  </SubsiteLayout>
-                }
-              />
-              <Route
-                path="/ads"
+                path="/ogloszenia"
                 element={
                   <SubsiteLayout>
                     <Ads />
@@ -49,7 +56,7 @@ export const WardLayout: FC = () => {
                 }
               />
               <Route
-                path="/intentions"
+                path="/intencje"
                 element={
                   <SubsiteLayout>
                     <Ads />
@@ -57,13 +64,13 @@ export const WardLayout: FC = () => {
                 }
               />
               {[
-                "/history",
-                "/groups",
-                "/office",
-                "/priests",
-                "/nuns",
-                "/gallery",
-                "/protection",
+                "/historia",
+                "/grupy",
+                "/kancelaria",
+                "/kaplani",
+                "/siostry",
+                "/galeria",
+                "/standardy",
               ].map((path) => (
                 <Route
                   key={path}
@@ -76,13 +83,13 @@ export const WardLayout: FC = () => {
                 />
               ))}
               {[
-                "/masses",
-                "/baptism",
-                "/confession",
-                "/communion",
-                "/confirmation",
-                "/marriage",
-                "/sick",
+                "/msze",
+                "/chrzest",
+                "/spowiedz",
+                "/komunia",
+                "/bierzmowanie",
+                "/malzenstwo",
+                "/namaszczenie",
               ].map((path) => (
                 <Route
                   key={path}
@@ -95,7 +102,7 @@ export const WardLayout: FC = () => {
                 />
               ))}
               <Route
-                path="/contact"
+                path="/kontakt"
                 element={
                   <SubsiteLayout title="Kontakt">
                     <Contact />

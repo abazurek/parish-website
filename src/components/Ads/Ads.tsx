@@ -13,6 +13,8 @@ export const Ads: FC = () => {
   const location = useLocation();
   const nameOfPath = location.pathname.substring(1);
 
+  console.log(nameOfPath);
+
   return (
     <div>
       <Helmet>
@@ -31,11 +33,11 @@ export const Ads: FC = () => {
               variant="pills"
               className="flex-wrap align-items-center justify-content-center"
             >
-              <SingleItem key="ads">
-                <SingleButton eventKey="ads">Ogłoszenia</SingleButton>
+              <SingleItem key="ogloszenia">
+                <SingleButton eventKey="ogloszenia">Ogłoszenia</SingleButton>
               </SingleItem>
-              <SingleItem key="intentions">
-                <SingleButton eventKey="intentions">
+              <SingleItem key="intencje">
+                <SingleButton eventKey="intencje">
                   Intencje mszalne
                 </SingleButton>
               </SingleItem>
@@ -44,10 +46,10 @@ export const Ads: FC = () => {
         </FirstRow>
         <Row>
           <Tab.Content>
-            <Tab.Pane key="ads" eventKey="ads" className="m-2">
+            <Tab.Pane key="ogloszenia" eventKey="ogloszenia" className="m-2">
               <AdsInfo />
             </Tab.Pane>
-            <Tab.Pane key="intentions" eventKey="intentions" className="m-2">
+            <Tab.Pane key="intencje" eventKey="intencje" className="m-2">
               <Intentions />
             </Tab.Pane>
           </Tab.Content>

@@ -17,21 +17,23 @@ import { Helmet } from "react-helmet";
 export const Sacraments: FC = () => {
   const location = useLocation();
   const nameOfPath = location.pathname.substring(1);
+
+  console.log(nameOfPath);
   const getComponentByPathName = (path: string) => {
     switch (path) {
-      case "masses":
+      case "msze":
         return <Masses />;
-      case "baptism":
+      case "chrzest":
         return <Baptism />;
-      case "confession":
+      case "spowiedz":
         return <Confession />;
-      case "communion":
+      case "komunia":
         return <Communion />;
-      case "confirmation":
+      case "bierzmowanie":
         return <Confirmation />;
-      case "marriage":
+      case "malzenstwo":
         return <Marriage />;
-      case "sick":
+      case "namaszczenie":
         return <Sick />;
       default:
         return <Masses />;
@@ -56,7 +58,7 @@ export const Sacraments: FC = () => {
               variant="pills"
               className="flex-wrap align-items-center justify-content-center"
             >
-              {navList[4].options.map((option) => (
+              {navList[3].options.map((option) => (
                 <SingleItem key={option.href}>
                   <SingleButton eventKey={option.href}>
                     {option.title}
@@ -68,7 +70,7 @@ export const Sacraments: FC = () => {
         </FirstRow>
         <Row>
           <Tab.Content>
-            {navList[4].options.map((option) => (
+            {navList[3].options.map((option) => (
               <Tab.Pane
                 key={option.href}
                 eventKey={option.href}
