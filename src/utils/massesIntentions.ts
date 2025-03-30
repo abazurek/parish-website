@@ -1,150 +1,6 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "23.03.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:30",
-        intention: "+Bronisława, Stefanię Buliczów",
-      },
-      {
-        hour: "9:30",
-        intention: "+Józefa Nowaka",
-      },
-      {
-        hour: "10:45",
-        intention: "+Janinę, Michała, Helenę, Kazimierza Muców",
-      },
-      {
-        hour: "12:00",
-        intention: "Za parafian",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Sławomira, Eugeniusza Makowskich, Stanisławę, Jana Gałkowskich",
-      },
-    ],
-  },
-  {
-    day: "Poniedziałek",
-    date: "24.03.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jana Molkę /od rodz. Solorzów/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Ewę Ciągowską /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "O Boże bł., zdrowie i wszelkie łaski dla Mariusza z racji 50 r. urodzin i dla Joanny z racji 18 r. urodzin",
-      },
-    ],
-  },
-  {
-    day: "Wtorek",
-    date: "25.03.25.",
-    addInfo: "Zwiastowanie Pańskie",
-    intensions: [
-      {
-        hour: "8:00",
-        intention: "+Jana Molkę /od rodz. Popczyków i Miśkiewiczów/",
-      },
-      {
-        hour: "10:00",
-        intention: "+Adriana Stuczyńskiego /1 r. śm./",
-      },
-      {
-        hour: "17:00",
-        intention: "Zbiorowa",
-      },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "26.03.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jana Molkę /od kuzynki Renaty/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Józefa Kuleja /od brata Zygmunta z Żoną/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Mariana Kicińskiego /od Anety i Bogusława Buła z rodz./",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "27.03.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jana Molkę /od uczest. pogrzebu/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Ewę Ciągowską /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Elżbietę Borowską /od syna Adama z rodz./",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "28.03.25.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jana Molkę /od uczest. pogrzebu/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Ewę Ciągowską /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "O Boże bł., zdrowie i wszelkie łaski dla Lucjana z racji urodzin",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "29.03.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jana Molkę /od uczest. pogrzebu/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Mariana Kasprzyka /od syna Zbigniewa z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "+Elżbietę Borowską /od Andrzeja, Jadwigi i Jana Nowaków/",
-      },
-    ],
-  },
-  {
-    day: "Niedziela",
     date: "30.03.25r.",
     addInfo: "",
     intensions: [
@@ -168,6 +24,157 @@ export const massesIntentions = [
         hour: "17:00",
         intention:
           "+Mariana /6 r. śm./, Witolda Makowskich, Cecylię, Antoniego Zająców",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "31.03.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Ewę Ciągowską /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Jana Molkę /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Elżbietę Borowską /od córki Marty z rodz./",
+      },
+    ],
+  },
+  {
+    day: "Wtorek",
+    date: "01.04.25.",
+    addInfo: "Zwiastowanie Pańskie",
+    intensions: [
+      {
+        hour: "8:00",
+        intention: "+Ewę Ciągowska /od uczest. pogrzebu/",
+      },
+      {
+        hour: "10:00",
+        intention: "+Jana Molkę /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Rranciszka, Ryszarda Leśko",
+      },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "02.04.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Alicję Rozmarynowską",
+      },
+      {
+        hour: "7:30",
+        intention: "+Stanisławę Rokicką /od rodz. Lisieckich/",
+      },
+      {
+        hour: "17:00",
+        intention: "Zbiorowa",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "03.04.25.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Ryszarda Bułę /z racji imienin/",
+      },
+      {
+        hour: "7:30",
+        intention: "Za Kapłanów",
+      },
+      {
+        hour: "9:00",
+        intention:
+          "W int. Ucznów, Dyrekcji, Nauczycieli i Prac. Szkoły Podstawowej w Blachowni",
+      },
+      {
+        hour: "17:00",
+        intention: "+Teresę, Ryszarda Dorosińskich",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "04.04.25.",
+    addInfo: "I DZIEŃ REKOLEKCJI",
+    intensions: [
+      {
+        hour: "9:00",
+        intention: "+Ks. Wojciecha i abp. Józefa Życińsich",
+      },
+      {
+        hour: "11:00",
+        intention: "+Ryszarda, Izabelę Kowalików",
+      },
+      {
+        hour: "18:00",
+        intention: "+Halinę Derbich, Władysława Pilarczyka",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "05.04.25r.",
+    addInfo: "II DZIEŃ REKOLEKCJI",
+    intensions: [
+      {
+        hour: "9:00",
+        intention: "+Jana Molkę /od uczest. pogrzebu/",
+      },
+      {
+        hour: "11:00",
+        intention: "+Józefę, Lecha, Jarosława Gruców",
+      },
+      {
+        hour: "16:00",
+        intention: "+Genowefę, Wojciecha Bartoszczyków",
+      },
+      {
+        hour: "18:00",
+        intention:
+          "+Irenę, Kazimierza, Romana, Karola Radziochów, Cecylię Labocha, Helenę, Krystyna, Zygmunta Wolskich",
+      },
+    ],
+  },
+  {
+    day: "Niedziela",
+    date: "06.04.25r.",
+    addInfo: "III DZIEŃ REKOLEKCJI",
+    intensions: [
+      {
+        hour: "7:30",
+        intention: "+Dominika Czechowicza /28 r. śm./",
+      },
+      {
+        hour: "9:30",
+        intention: "+Jerzego Kowalczyka /11 r. śm./",
+      },
+      {
+        hour: "10:45",
+        intention: "+Ingę Zawadzką /od rodz. Stępień/",
+      },
+      {
+        hour: "12:00",
+        intention: "Za parafian",
+      },
+      {
+        hour: "17:00",
+        intention: "+Mieczysława, Janinę, Mieczysława Witkowskich",
       },
     ],
   },
