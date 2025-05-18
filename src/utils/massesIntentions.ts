@@ -1,82 +1,82 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "30.03.25r.",
+    date: "18.05.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Leokadię Czechowicz /7 r. śm./",
+        intention: "+Bonifacego, Cecylię, Annę Kokotów",
       },
       {
         hour: "9:30",
-        intention: "+Ingę Zawadzką /od wnuka Marcina z rodz./",
+        intention:
+          "+Zofię, Tadeusza Pajewskich, Mariannę, Stanisława, Jana Dobrowolskich",
       },
       {
         hour: "10:45",
-        intention: "+Annę, Eugeniusza, zm. z rodz. Gajlewiczów",
+        intention: "Rocznica I Komunii Świętej /w int. dzieci/",
       },
       {
         hour: "12:00",
-        intention: "Za parafian",
+        intention: "+Janinę, Władysława Kiedrzyńskich",
       },
       {
         hour: "17:00",
-        intention:
-          "+Mariana /6 r. śm./, Witolda Makowskich, Cecylię, Antoniego Zająców",
+        intention: "+Jerzego Czarneckiego",
       },
     ],
   },
   {
     day: "Poniedziałek",
-    date: "31.03.25r.",
+    date: "19.05.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Ewę Ciągowską /od uczest. pogrzebu/",
+        intention: "+Jerzego Czarneckiego",
       },
       {
         hour: "7:30",
-        intention: "+Jana Molkę /od uczest. pogrzebu/",
+        intention: "+Elżbietę Kowalską /od uczest. pogrzebu/",
       },
       {
         hour: "17:00",
-        intention: "+Elżbietę Borowską /od córki Marty z rodz./",
+        intention: "+Krystynę Leśko",
       },
     ],
   },
   {
     day: "Wtorek",
-    date: "01.04.25.",
-    addInfo: "Zwiastowanie Pańskie",
+    date: "20.05.25r.",
+    addInfo: "",
     intensions: [
       {
-        hour: "8:00",
-        intention: "+Ewę Ciągowska /od uczest. pogrzebu/",
+        hour: "7:00",
+        intention: "+Zygmunta Szymoniaka /3 r. śm./",
       },
       {
-        hour: "10:00",
-        intention: "+Jana Molkę /od uczest. pogrzebu/",
+        hour: "7:30",
+        intention: "+Jerzego Czarneckiego",
       },
       {
         hour: "17:00",
-        intention: "+Rranciszka, Ryszarda Leśko",
+        intention: "+Elżbietę Borowską /od rodz. Koniecznych/",
       },
     ],
   },
   {
     day: "Środa",
-    date: "02.04.25r.",
+    date: "21.05.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Alicję Rozmarynowską",
+        intention: "+Jerzego Czarneckiego",
       },
       {
         hour: "7:30",
-        intention: "+Stanisławę Rokicką /od rodz. Lisieckich/",
+        intention: "+Alicję Adamus /od Agnieszki Kuliś/",
       },
       {
         hour: "17:00",
@@ -86,95 +86,87 @@ export const massesIntentions = [
   },
   {
     day: "Czwartek",
-    date: "03.04.25.",
+    date: "22.05.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Ryszarda Bułę /z racji imienin/",
+        intention: "+Mariana Kasprzyka /od Marii z rodz./",
       },
       {
         hour: "7:30",
-        intention: "Za Kapłanów",
-      },
-      {
-        hour: "9:00",
-        intention:
-          "W int. Ucznów, Dyrekcji, Nauczycieli i Prac. Szkoły Podstawowej w Blachowni",
+        intention: "+Alinę Szpitalną /od Leszka i Tomka z rodz./",
       },
       {
         hour: "17:00",
-        intention: "+Teresę, Ryszarda Dorosińskich",
+        intention: "+Jerzego Czarneckiego",
       },
     ],
   },
   {
     day: "Piątek",
-    date: "04.04.25.",
-    addInfo: "I DZIEŃ REKOLEKCJI",
+    date: "23.05.25r.",
+    addInfo: "",
     intensions: [
       {
-        hour: "9:00",
-        intention: "+Ks. Wojciecha i abp. Józefa Życińsich",
+        hour: "7:00",
+        intention:
+          "+Alinę Szpitalną /od Iwony Golonka z rodz. i Marii Szpitalnej/",
       },
       {
-        hour: "11:00",
-        intention: "+Ryszarda, Izabelę Kowalików",
+        hour: "7:30",
+        intention: "+Jerzego Czarneckiego",
       },
       {
-        hour: "18:00",
-        intention: "+Halinę Derbich, Władysława Pilarczyka",
+        hour: "17:00",
+        intention: "+Elżbietę Borowską /od bratowej Marianny z rodz./",
       },
     ],
   },
   {
     day: "Sobota",
-    date: "05.04.25r.",
-    addInfo: "II DZIEŃ REKOLEKCJI",
+    date: "24.05.25r.",
+    addInfo: "",
     intensions: [
       {
-        hour: "9:00",
-        intention: "+Jana Molkę /od uczest. pogrzebu/",
+        hour: "7:00",
+        intention: "+Jerzego Czarneckiego",
       },
       {
-        hour: "11:00",
-        intention: "+Józefę, Lecha, Jarosława Gruców",
+        hour: "7:30",
+        intention: "+Alinę Szpitalną /od wnuczki Katarzyny z mężem i dziećmi/",
       },
       {
-        hour: "16:00",
-        intention: "+Genowefę, Wojciecha Bartoszczyków",
-      },
-      {
-        hour: "18:00",
-        intention:
-          "+Irenę, Kazimierza, Romana, Karola Radziochów, Cecylię Labocha, Helenę, Krystyna, Zygmunta Wolskich",
+        hour: "17:00",
+        intention: "+Henrykę, Jana Rozpondków",
       },
     ],
   },
   {
     day: "Niedziela",
-    date: "06.04.25r.",
-    addInfo: "III DZIEŃ REKOLEKCJI",
+    date: "25.05.25r.",
+    addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Dominika Czechowicza /28 r. śm./",
+        intention: "+Jerzego Czarneckiego",
       },
       {
         hour: "9:30",
-        intention: "+Jerzego Kowalczyka /11 r. śm./",
+        intention: "+Cecylię, Władysława Kromołowskich, Grażynę Duchowską",
       },
       {
         hour: "10:45",
-        intention: "+Ingę Zawadzką /od rodz. Stępień/",
+        intention:
+          "Urodzinowa: /Małgożata Ścisłowska r. ur./Krystyna Ścisłowska r. ur./ /Natalia 3 r. ur.//Jaśmina Kosińska 3 r. ur.//wojciech 4 r. ur./",
       },
       {
         hour: "12:00",
-        intention: "Za parafian",
+        intention: "+Barbarę, Andrzeja Pytlawskich",
       },
       {
         hour: "17:00",
-        intention: "+Mieczysława, Janinę, Mieczysława Witkowskich",
+        intention: "+Tadeusza Wystupa",
       },
     ],
   },
