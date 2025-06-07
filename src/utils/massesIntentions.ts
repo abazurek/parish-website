@@ -1,82 +1,128 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "18.05.25r.",
+    date: "08.06.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Bonifacego, Cecylię, Annę Kokotów",
+        intention: "+Bożenę Stefani /4 r. śm./",
       },
       {
         hour: "9:30",
-        intention:
-          "+Zofię, Tadeusza Pajewskich, Mariannę, Stanisława, Jana Dobrowolskich",
+        intention: "+Emilię, Stanisława Lipińskich",
       },
       {
         hour: "10:45",
-        intention: "Rocznica I Komunii Świętej /w int. dzieci/",
+        intention:
+          "+Agatę, Mariannę, Józefa Adamus, Stanisławę Walter, Ryszarda, Łukasza Mstowskich",
       },
       {
         hour: "12:00",
-        intention: "+Janinę, Władysława Kiedrzyńskich",
+        intention: "O Boże bł. i wszalkie łaski dla Antoniny w 1 r. urodzin",
       },
       {
         hour: "17:00",
-        intention: "+Jerzego Czarneckiego",
+        intention: "+Eugeniusza Walaszczyka /4 r. śm., od żony i dzieci/",
       },
     ],
   },
   {
     day: "Poniedziałek",
-    date: "19.05.25r.",
-    addInfo: "",
+    date: "09.06.25r.",
+    addInfo: "N.M.P. Matki Kościoła",
     intensions: [
+      // {
+      //   hour: "7:00",
+      //   intention: "+Mariusza Kabzińskiego",
+      // },
       {
-        hour: "7:00",
-        intention: "+Jerzego Czarneckiego",
+        hour: "8:00",
+        intention: "+Elwirę Mszyca /od Janusza Mszycy i rodz. Młynarczyków/",
       },
       {
-        hour: "7:30",
-        intention: "+Elżbietę Kowalską /od uczest. pogrzebu/",
+        hour: "10:00",
+        intention: "+Mariana Kasprzyka /od brata Zygmunta z rodz./",
       },
+      // {
+      //   hour: "7:30",
+      //   intention: "+Henryka Ludwika /od uczest. pogrzebu//",
+      // },
       {
         hour: "17:00",
-        intention: "+Krystynę Leśko",
+        intention: "+Urszulę Janik, Stefana Kluczniaka",
       },
     ],
   },
   {
     day: "Wtorek",
-    date: "20.05.25r.",
+    date: "10.06.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Zygmunta Szymoniaka /3 r. śm./",
+        intention: "+Jerzego Walaszczyka /od brata Dariusza z rodz./",
       },
       {
         hour: "7:30",
-        intention: "+Jerzego Czarneckiego",
+        intention: "+Grzegorza Bowara /od Anastazji Lipka i Ewy Depta z rodz./",
       },
       {
         hour: "17:00",
-        intention: "+Elżbietę Borowską /od rodz. Koniecznych/",
+        intention: "+Jana Korbuta /od żony/",
       },
     ],
   },
   {
     day: "Środa",
-    date: "21.05.25r.",
+    date: "11.06.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Jerzego Czarneckiego",
+        intention: "+Jerzego Walaszczyka /od Beaty i Sławka Kandora/",
       },
       {
         hour: "7:30",
-        intention: "+Alicję Adamus /od Agnieszki Kuliś/",
+        intention: "+Józefa /od koleżanek/",
+      },
+      {
+        hour: "17:00",
+        intention: "++Krystynę, Mikołaja, Józefa Wineckich",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "12.06.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Jerzego Walaszczyka /od chrześniaka Kamila z rodz./",
+      },
+      {
+        hour: "7:30",
+        intention: "+Tadeusza, Jerzego Kordowskich /od rodz. Krawieckich/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Elżbietę Borowską /od rodz. Ziębaczewskich i Pikułów/",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "13.06.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Antoniego, Andrzeja Cieślików",
+      },
+      {
+        hour: "7:30",
+        intention: "O Boże bł. i wszelkie łaski dla ks. Antoniego Troniny",
       },
       {
         hour: "17:00",
@@ -85,88 +131,49 @@ export const massesIntentions = [
     ],
   },
   {
-    day: "Czwartek",
-    date: "22.05.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Mariana Kasprzyka /od Marii z rodz./",
-      },
-      {
-        hour: "7:30",
-        intention: "+Alinę Szpitalną /od Leszka i Tomka z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "+Jerzego Czarneckiego",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "23.05.25r.",
+    day: "Sobota",
+    date: "14.06.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
         intention:
-          "+Alinę Szpitalną /od Iwony Golonka z rodz. i Marii Szpitalnej/",
+          "+Jerzego Walaszczyka /od Tomka i Jadzi Ściubidło i od Sławka i Kasi Żydek",
       },
       {
         hour: "7:30",
-        intention: "+Jerzego Czarneckiego",
+        intention: "+Tadeusza Kordowskiego /od żony/",
       },
       {
         hour: "17:00",
-        intention: "+Elżbietę Borowską /od bratowej Marianny z rodz./",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "24.05.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jerzego Czarneckiego",
-      },
-      {
-        hour: "7:30",
-        intention: "+Alinę Szpitalną /od wnuczki Katarzyny z mężem i dziećmi/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Henrykę, Jana Rozpondków",
+        intention: "Jubileusze małżeńskie:",
       },
     ],
   },
   {
     day: "Niedziela",
-    date: "25.05.25r.",
+    date: "15.06.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Jerzego Czarneckiego",
+        intention: "+Zofię, Piotra, Antoniego Kalemba",
       },
       {
         hour: "9:30",
-        intention: "+Cecylię, Władysława Kromołowskich, Grażynę Duchowską",
+        intention: "+Halinę, Kazimierza Czechowiczów",
       },
       {
         hour: "10:45",
-        intention:
-          "Urodzinowa: /Małgożata Ścisłowska r. ur./Krystyna Ścisłowska r. ur./ /Natalia 3 r. ur.//Jaśmina Kosińska 3 r. ur.//wojciech 4 r. ur./",
+        intention: "Urodzinowa: /Michał Rajca 1 r. ur// Dawid 25 r. ur./",
       },
       {
         hour: "12:00",
-        intention: "+Barbarę, Andrzeja Pytlawskich",
+        intention: "Za Parafian",
       },
       {
         hour: "17:00",
-        intention: "+Tadeusza Wystupa",
+        intention: "+Kazimierę, Zdzisława Wierzbickich",
       },
     ],
   },

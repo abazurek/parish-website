@@ -1,14 +1,16 @@
 export const adsInfo = {
-  date: "18 V 2025",
+  date: "8 VI 2025",
   info: [
-    "1. Przeżywamy V Niedzielę Wielkanocną.",
+    "1. Przeżywamy uroczystość Zesłania Ducha Św., kończącą liturgiczny okres wielkanocny. Parafianom, którzy nie dopełnili chrześcijańskiego obowiązku spowiedzi i komunii św. wielkanocnej przypominamy, że należy to uczynić w nadchodzącym tygodniu, do niedzieli Trójcy Przenajświętszej.",
 
-    "2. W środę o godz. 17.00 będzie msza św. zbiorowa za wstawiennictwem Matki Bożej Nieustającej Pomocy. W przyszłą niedzielę o godz. 10.45 będzie msza św. na rocznice urodzin. Można zgłaszać intencje.",
+    "2. Jutro drugi dzień Zielonych Świąt, święto Matki Kościoła. Msze św. będą o godz. 8.00, 10.00 i 17.00.",
 
-    "3. W czwartek przypada liturgiczne wspomnienie św. Rity – patronki od spraw beznadziejnych, zdrowotnych, a także rodzinnych i małżeńskich. Na mszach św. będzie poświęcenie róż.",
+    "3. W piątek o godz. 17.00 będzie kolejne Nabożeństwo Fatimskie z różańcem pokutnym i procesją z figurą Matki Bożej . Zachęcamy do udziału. Msza św. będzie z intencją zbiorową.",
 
-    "4. Również w czwartek po mszy św. o godz. 17.00 będzie spotkanie dla młodzieży z klas VIII przygotowującej się do sakramentu bierzmowania.",
+    "4. W sobotą o godz. 17.00 będzie msza św. zbiorowa na rocznice sakramentu małżeństwa a w przyszłą niedzielę o godz. 10.45 msza św. zbiorowa na rocznice urodzin. Można zgłaszać intencje.",
 
-    "5. Serdecznie dziękujemy wszystkim uczestnikom majówek odprawianych w terenie, w różnych miejscach parafii. Szczególnie dziękujemy osobom, które przygotowały ołtarze do odprawienia mszy św. Dziękujemy też wszystkim, którzy troszczą się o kapliczki i krzyże na terenie parafii. Bóg zapłać",
+    "5. Także w przyszłą niedzielę będzie miesięczna taca inwestycyjna.",
+
+    "6. Zachęcamy do podpisania przy wyjściu z kościoła propozycji ustawy obywatelskiej w obronie 2 godz. religii lub etyki w szkole jako przedmiotów obowiązkowych.",
   ],
 };
