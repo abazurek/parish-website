@@ -35,9 +35,7 @@ export const groupIntentions = {
     "+Henryka Kościuch /od żony, córek i wnuków/",
     "+Bronisławę, Jana Sobczyków, Alfredę, Ryszarda, Tomasza Leszczyńskich,",
     "+Wiesławę Wilk, Wacława Skoczylasa",
-    "+Janinę, Henryka Błaszczyków, Józefa, Zdzisława Orzechowskich, Pelagię, Andrzeja, Józefa,",
-    "Zbigniewa Jelonków, Jerzego Wyrwas, Józefa Kulika, Annę, Marcina Jędrzejewskich, Elfrydę",
-    "Masny",
+    "+Janinę, Henryka Błaszczyków, Józefa, Zdzisława Orzechowskich, Pelagię, Andrzeja, Józefa, Zbigniewa Jelonków, Jerzego Wyrwas, Józefa Kulika, Annę, Marcina Jędrzejewskich, Elfrydę Masny",
     "+Joannę Kocur /od rodz. Kędziorów/",
   ],
 };
