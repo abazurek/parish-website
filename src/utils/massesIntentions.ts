@@ -1,21 +1,21 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "22.06.25r.",
+    date: "06.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Władysława, Mariannę, Sylwię, Jana Długoszów",
+        intention: "+Bożenę Stefani /z racji urodzin/",
       },
       {
         hour: "9:30",
-        intention: "+Stefana, Zofię, Stanisława Kulasiewiczów",
+        intention: "+Albina Kawelczyka",
       },
       {
         hour: "10:45",
         intention:
-          "+Barbarę, Helenę, Mieczysława Gomułów zm. z rodz. Debudajów",
+          "+Jana, Władysławę Pięt, Marię, Mariusza Kluczniaków, Gustawa Dusińskiego",
       },
       {
         hour: "12:00",
@@ -23,51 +23,42 @@ export const massesIntentions = [
       },
       {
         hour: "17:00",
-        intention: "+Mariannę, Wincentego Świtalskich",
+        intention: "+Kazimierza Kołka z rodzicami",
       },
     ],
   },
   {
     day: "Poniedziałek",
-    date: "23.06.25r.",
+    date: "07.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Bronisława Ruśkiewicza",
+        intention: "+Jerzego Walaszczyka /od sąsiadów z ul. Bankowej/",
       },
       {
         hour: "7:30",
-        intention:
-          "+Henryka, Janinę, Jerzego, Włodzimierza, Danutę Januszków, Henryka, Urszulę Szulców",
+        intention: "+Elżbietę Kowalską /od rodziny/",
       },
       {
         hour: "17:00",
-        intention: "+Janinę, Józefa Karczewskich z rodzicami",
+        intention: "+Janinę Kokot",
       },
     ],
   },
   {
     day: "Wtorek",
-    date: "24.06.25r.",
-    addInfo: "Uroczystość Narodzenia św. Jana Chrzciciela",
+    date: "08.07.25r.",
+    addInfo: "",
     intensions: [
-      // {
-      //   hour: "7:00",
-      //   intention: "+Jerzego Walaszczyka /od lekarek ze Stacji Dializ/",
-      // },
-      // {
-      //   hour: "7:30",
-      //   intention: "+Monikę, Franciszka, Weronikę, Antoniego Błachów",
-      // },
       {
-        hour: "8:00",
-        intention: "O Boże bł. i wszelkie łaski dla s. Danuty z racji imienin",
+        hour: "7:00",
+        intention: "+Janinę Kokot",
       },
       {
-        hour: "10:00",
+        hour: "7:30",
         intention:
-          "+Janinę, Jana, Mieczysława Czechów, Jana Michalinę Kierachów",
+          "+Jerzego Walaszczyka /od Beaty i Przemysława Lamorskich z rodz./",
       },
       {
         hour: "17:00",
@@ -77,126 +68,106 @@ export const massesIntentions = [
   },
   {
     day: "Środa",
-    date: "25.06.25r.",
+    date: "09.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Jerzego Walaszczyka /od Małgorzaty Kałuża z mamą/",
+        intention: "+Ryszarda Hiszpańskiego /od rodz. Kita/",
       },
       {
         hour: "7:30",
-        intention: "+Tadeusza Kordowskiego /od siostry Marty z rodz./",
+        intention: "+Jerzego Walaszczyka /od Dagmary i Piotra z rodz./",
       },
       {
         hour: "17:00",
-        intention: "+Janinę, Alojzego Korbelów",
+        intention: "+Janinę Kokot",
       },
     ],
   },
   {
     day: "Czwartek",
-    date: "26.06.25r.",
-    addInfo: "Uroczystość Najświętszego Ciała i Krwi Chrystusa",
+    date: "10.07.25r.",
+    addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Jerzego Walaszczyka /od sąsiadów Adamusów i Parkitnych/",
+        intention: "+Janinę Kokot",
       },
       {
         hour: "7:30",
-        intention: "+Tadeusza Kordowskiego /od córki Moniki z rodz./",
-      },
-      {
-        hour: "8:30",
-        intention: "Msza na Zakończenie Roku Szkolnego dla kl. IV-VIII",
-      },
-      {
-        hour: "9:30",
-        intention: "Msza na Zakończenie Roku Szkolnego dla kl I-III",
+        intention: "+Jerzego Walaszczyka /od pracowników stacji dializ/",
       },
       {
         hour: "17:00",
-        intention: "+Jana Korbuta /od rodz. Majewskich/",
+        intention: "+Jana Korbuta /od rodz. Witczaków/",
       },
     ],
   },
   {
     day: "Piątek",
-    date: "27.06.25r.",
-    addInfo: "Uroczystość Najśw. Serca Pana Jezusa",
+    date: "11.07.25r.",
+    addInfo: "",
     intensions: [
-      // {
-      //   hour: "7:00",
-      //   intention: "+Dusze w Czyśćcu cierpiące",
-      // },
-      // {
-      //   hour: "7:30",
-      //   intention: "+Tadeusza Kordowskiego /od rodz. Wardzałów z Tarnowa/",
-      // },
       {
-        hour: "8:00",
-        intention:
-          "O Boże bł. i wszelkie łaski dla Marii Szymoniak /od życzliwych pań/",
+        hour: "7:00",
+        intention: "+Janinę Kokot",
       },
       {
-        hour: "10:00",
+        hour: "7:30",
         intention:
-          "+Jerzego Walaszczyka /od Wiesławy i Andrzeja Załęckich z rodz/",
+          "+Jerzego Walaszczyka /od Jakuba, Katarzyny i Michała Nowaków/",
       },
       {
         hour: "17:00",
-        intention:
-          "+Siostry Sercanki: Ildefonsę i Walentę, zm. z rodz. Golików, Helenę, Stanisława, Jana, Bożenę Adamowiczów i zm. z ich rodzin",
+        intention: "+Elżbietę Borowską /od siostry Marii/",
       },
     ],
   },
   {
     day: "Sobota",
-    date: "28.06.25r.",
+    date: "12.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Irenę Ferenc /od sióstr Nazaretanek z Gdańska/",
+        intention: "+Janinę Kokot",
       },
       {
         hour: "7:30",
-        intention: "+Jerzego Walaszczyka /od synów z rodzinami/",
+        intention:
+          "+Jerzego Walaszczyka /od Agaty i Krzysztofa Grabarów z rodz./",
       },
       {
         hour: "17:00",
-        intention:
-          "+Marię, Longina Tarnawskich, Marię, Wojciecha, Barbarę, Longina Cichockich, zm. z rodz. Tarnawskich i Cichockich",
+        intention: "Jubileusze małżeńskie:",
       },
     ],
   },
   {
     day: "Niedziela",
-    date: "29.06.25r.",
-    addInfo: "Uroczystość Świętych Apostołów Piotra i Pawła",
+    date: "13.07.25r.",
+    addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Władysława Koniecznego",
+        intention: "+Zofię, Piotra, Antoniego Kalembów",
       },
       {
         hour: "9:30",
-        intention: "+Grzegorza /1 r. śm./, Henryka /10 r. śm./, Janinę Nowaków",
+        intention: "+Helenę /42 r. śm./, Jana Kluzów, Mariana Szewczyka",
       },
       {
         hour: "10:45",
-        intention:
-          "+Rozalię, Marcina Kozerów, Stefana Kałuźniaka i zm. z ich rodzin",
+        intention: "Urodziny: /Marta 18 r. urodzin/",
       },
       {
         hour: "12:00",
-        intention:
-          "O Boże bł. i wszelkie łaski dla Aliny Matuszewskiej z racji urodzin",
+        intention: "Za Parafian",
       },
       {
         hour: "17:00",
-        intention: "+Stefanię Kołaczyk /1 r. śm., od córki Krystyny z rodz./",
+        intention: "+Janinę Kokot",
       },
     ],
   },
