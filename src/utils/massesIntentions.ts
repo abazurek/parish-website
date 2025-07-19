@@ -1,44 +1,43 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "06.07.25r.",
+    date: "20.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Bożenę Stefani /z racji urodzin/",
+        intention: "+Czesława, Lidię Kliszewskich",
       },
       {
         hour: "9:30",
-        intention: "+Albina Kawelczyka",
+        intention: "+Tadeusza, Edytę, Jacka Nowaków",
       },
       {
         hour: "10:45",
-        intention:
-          "+Jana, Władysławę Pięt, Marię, Mariusza Kluczniaków, Gustawa Dusińskiego",
+        intention: "O Boże bł., dary Ducha Św. dla Kasi i Rafała",
       },
       {
         hour: "12:00",
-        intention: "Za Parafian",
+        intention: "+Janinę Kokot",
       },
       {
         hour: "17:00",
-        intention: "+Kazimierza Kołka z rodzicami",
+        intention: "+Stanisława Muca, Wacława Piątakiewicza, Luizę Zatorską",
       },
     ],
   },
   {
     day: "Poniedziałek",
-    date: "07.07.25r.",
+    date: "21.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Jerzego Walaszczyka /od sąsiadów z ul. Bankowej/",
+        intention: "+Genowefę Andrzejczak /od Krystyny Witkowskiej/",
       },
       {
         hour: "7:30",
-        intention: "+Elżbietę Kowalską /od rodziny/",
+        intention: "+Jacka Biernackiego /od brata Mariusza z rodz./",
       },
       {
         hour: "17:00",
@@ -48,7 +47,26 @@ export const massesIntentions = [
   },
   {
     day: "Wtorek",
-    date: "08.07.25r.",
+    date: "22.07.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Genowefę Andrzejczak /od rodz. Mrozowskich/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Antoninę Sikora /od Teresy i Lucjana Lisieckich z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention: "+Janinę Kokot",
+      },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "23.07.25r.",
     addInfo: "",
     intensions: [
       {
@@ -57,8 +75,7 @@ export const massesIntentions = [
       },
       {
         hour: "7:30",
-        intention:
-          "+Jerzego Walaszczyka /od Beaty i Przemysława Lamorskich z rodz./",
+        intention: "+Krystynę Gałan /od rodz. Kulisiów/",
       },
       {
         hour: "17:00",
@@ -67,103 +84,83 @@ export const massesIntentions = [
     ],
   },
   {
-    day: "Środa",
-    date: "09.07.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Ryszarda Hiszpańskiego /od rodz. Kita/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Jerzego Walaszczyka /od Dagmary i Piotra z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "+Janinę Kokot",
-      },
-    ],
-  },
-  {
     day: "Czwartek",
-    date: "10.07.25r.",
+    date: "24.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Janinę Kokot",
+        intention: "+Genowefę Andrzejczak /od prawnuka Daniela z Patrycją/",
       },
       {
         hour: "7:30",
-        intention: "+Jerzego Walaszczyka /od pracowników stacji dializ/",
+        intention: "+Janinę Kokot",
       },
       {
         hour: "17:00",
-        intention: "+Jana Korbuta /od rodz. Witczaków/",
+        intention:
+          "+Annę, Antoniego Bednarków, Krystynę, Mikołaja, Józefa Wineckich, Magdalenę Dymczyk - Borecką, Krystynę, Michała Boreckich, Irenę, Czesława Cierpiałów, Zdzisławę, Krzysztofa Ceglarków",
       },
     ],
   },
   {
     day: "Piątek",
-    date: "11.07.25r.",
+    date: "25.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Janinę Kokot",
+        intention: "+Marię Przygoda /od Kuzynki Eli z rodz./",
       },
       {
         hour: "7:30",
-        intention:
-          "+Jerzego Walaszczyka /od Jakuba, Katarzyny i Michała Nowaków/",
+        intention: "+Eugenię, Józefa, Zygmunta Szymoniaków",
       },
       {
         hour: "17:00",
-        intention: "+Elżbietę Borowską /od siostry Marii/",
+        intention: "+Janinę Kokot",
       },
     ],
   },
   {
     day: "Sobota",
-    date: "12.07.25r.",
+    date: "26.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Janinę Kokot",
+        intention: "+Jerzego Walaszczyka /od Piotra Grabary z rodz./",
       },
       {
         hour: "7:30",
-        intention:
-          "+Jerzego Walaszczyka /od Agaty i Krzysztofa Grabarów z rodz./",
+        intention: "+Janinę Kokot",
       },
       {
         hour: "17:00",
-        intention: "Jubileusze małżeńskie:",
+        intention: "+Eugenię, Czesława Garusów",
       },
     ],
   },
   {
     day: "Niedziela",
-    date: "13.07.25r.",
+    date: "27.07.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Zofię, Piotra, Antoniego Kalembów",
+        intention: "+Jadwigę - Elżbietę Trzepizur /r. śm./",
       },
       {
         hour: "9:30",
-        intention: "+Helenę /42 r. śm./, Jana Kluzów, Mariana Szewczyka",
+        intention: "+Teresę Nowak",
       },
       {
         hour: "10:45",
-        intention: "Urodziny: /Marta 18 r. urodzin/",
+        intention: "+Wiktorię, Augustyna, zm. z rodz. Ledwoniów",
       },
       {
         hour: "12:00",
-        intention: "Za Parafian",
+        intention: "W 1 r. urodzin Józefa i w 1 r. urodzin Małgorzaty",
       },
       {
         hour: "17:00",
