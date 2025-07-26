@@ -1,12 +1,20 @@
 export const adsInfo = {
-  date: "20 VII 2025",
+  date: "27 VII 2025",
   info: [
-    "1. Przeżywamy XVI niedzielę zwykłą.",
+    "1. Przeżywamy XVII niedzielę zwykłą.",
 
-    "2. W środę o godz. 17.00 będzie msza św. zbiorowa za wstawiennictwem Matki Bożej Nieustającej Pomocy.",
+    "2. Z okazji wspomnienia św. Krzysztofa dziś po każdej mszy św. poświęcane są pojazdy. Kierowców prosimy, by już powoli kierowali się do swoich samochodów. Jak ogłaszaliśmy przy okazji poświęcenia zbierane są ofiary na zakup pojazdów dla misjonarzy. Można też przy wyjściu z kościoła nabyć sobie dewocjonalia do samochodów.",
 
-    "3. W przyszła niedzielę czcić będziemy św. Krzysztofa – patrona kierowców i podróżujących. Po każdej mszy św. będzie poświęcenie pojazdów, którymi poruszamy się po drogach. Prosimy o wjazd i ustawienie pojazdów wokół kościoła. Można też wjeżdżać i ustawiać pojazdy od strony plebanii. Jak co roku organizacja pomagająca misjonarzom MIVA POLSKA przeprowadza w tym dniu zbiórkę ofiar na zakup pojazdów, którymi przemieszczają się misjonarze. Fundacja proponuje w duchu wdzięczności Bogu za szczęśliwe podróżowanie ofiarowanie 1 gr. za każdy bezpiecznie przejechany kilometr. Ofiary będzie można złożyć przy poświęceniu pojazdów. Przy wyjściu z kościoła będzie też można nabyć sobie różne dewocjonalia do samochodów. Dochód ze sprzedaży będzie także przeznaczony na pojazdy dla misjonarzy.",
+    "3. Także dziś obchodzimy Światowy Dzień Dziadków i Osób Starszych związany z wczorajszym wspomnieniem św. Joachima i Anny – dziadków Pana Jezusa. Osoby starsze, babcie i dziadkowie mogą zyskać odpust zupełny uczestnicząc we mszy św. i przyjmując komunię św. Za chwilę pomodlimy się za nich.",
 
-    "4. Także w przyszłą niedzielę będziemy przeżywać kolejny Światowy Dzień Dziadków i Osób Starszych związany z liturgicznym wspomnieniem św. Joachima i Anny – dziadków Pana Jezusa. Dziadkowie, babcie i osoby starsze mogą w tym dniu zyskać odpust zupełny uczestnicząc we mszy św. i przyjmując Komunię św.",
+    "4. W środę o godz. 17.00 będzie msza św. zbiorowa za wstawiennictwem Matki Bożej Nieustającej Pomocy.",
+
+    "5. W tym tygodniu przypadają I piątek i I sobota miesiąca z odpowiednimi nabożeństwami. W piątek od godz. 9.00 odwiedzimy z komunią św. chorych. Spowiedź pierwszopiątkowa w kościele o godz. 16.15.",
+
+    "6. W przyszłą niedzielę o godz. 16.00 będzie miesięczna adoracja Najświętszego Sakramentu i zmiana tajemnic Żywego Różańca.",
+
+    "7. Trwa czas pielgrzymowania na Jasną Górę. W przyszłą niedzielę przybędzie do naszej parafii na nocleg Pielgrzymka Legnicka. Bardzo prosimy o gościnne przyjęcie pielgrzymów.",
+
+    "8. Od piątku rozpoczyna się sierpień – miesiąc trzeźwości. Zachęcamy do podjęcia dobrowolnej trzeźwości, zwłaszcza w intencji trzeźwości w rodzinach i w intencji Ojczyzny.",
   ],
 };
