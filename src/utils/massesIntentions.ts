@@ -1,151 +1,6 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "27.07.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:30",
-        intention: "+Jadwigę - Elżbietę Trzepizur",
-      },
-      {
-        hour: "9:30",
-        intention: "+Teresę Nowak",
-      },
-      {
-        hour: "10:45",
-        intention: "+Wiktorię, Augustyna, zm. z rodz. Ledwoniów",
-      },
-      {
-        hour: "12:00",
-        intention:
-          "O Boże bł., wszelkie łaski, dary Ducha Św. dla Józefa w 1 r. urodzin i dla Małgorzaty w 8 r. urodzin",
-      },
-      {
-        hour: "17:00",
-        intention: "+Janinę Kokot",
-      },
-    ],
-  },
-  {
-    day: "Poniedziałek",
-    date: "28.07.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "O Nawrócenie i wiarę dla córki",
-      },
-      {
-        hour: "7:30",
-        intention: "+Janinę Kokot",
-      },
-      {
-        hour: "17:00",
-        intention: "/rez. p. Wieczorek - Podsiedlik/",
-      },
-    ],
-  },
-  {
-    day: "Wtorek",
-    date: "29.07.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "O nawrócenie i wiarę dla córki",
-      },
-      {
-        hour: "7:30",
-        intention: "+Mieczysława Kempe /od Heleny Ślusarczyk/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Janinę Kokot",
-      },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "30.07.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Janinę Kokot",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "+Leszka Raka /od dyrekcji i pracowników Zespołu Szkół Zawodowych Specjalnych w Częstochowie/",
-      },
-      {
-        hour: "17:00",
-        intention: "Zbiorowa",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "31.07.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Janinę Kokot",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "+Macieja Lewandowskiego /od kolegów Marka i Darka z rodzinami/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Emilię Pyda /od chrześnicy Beaty z mężem Sławkiem/",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "01.08.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "O Nawrócenie i wiarę dla córki",
-      },
-      {
-        hour: "7:30",
-        intention:
-          '+Macieja Lewandowskiego /od działkowców "Leśna Polana Lubin"',
-      },
-      {
-        hour: "17:00",
-        intention: "+Janinę Kokot",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "02.08.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Jerzego Walaszczyka /od kuzynki Olgi/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Janinę Kokot",
-      },
-      {
-        hour: "17:00",
-        intention: "+Emilię Pyda /od wnuczka Adama z żoną/",
-      },
-    ],
-  },
-  {
-    day: "Niedziela",
     date: "03.08.25r.",
     addInfo: "",
     intensions: [
@@ -170,6 +25,162 @@ export const massesIntentions = [
       {
         hour: "17:00",
         intention: "/rez. p. Kołek/",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "04.08.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Janinę Kokot",
+      },
+      {
+        hour: "7:30",
+        intention: "+Macieja Lewandowskiego /od Michała i Klaudii Jakubiec/",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "O Boże bł. i wszelkie łaski dla siostry Wianei z racji imienin /od życzliwych pań/",
+      },
+    ],
+  },
+  {
+    day: "Wtorek",
+    date: "05.08.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention:
+          "O Boże bł. i wszelkie łaski dla Agaty z racji 15 r. urodzin",
+      },
+      {
+        hour: "7:30",
+        intention: "+Janinę Kokot",
+      },
+      {
+        hour: "17:00",
+        intention: "+Lidię Kliszewską /4 r. śm./",
+      },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "06.08.25r.",
+    addInfo: "Święto Przemienienia Pańskiego",
+    intensions: [
+      // {
+      //   hour: "7:00",
+      //   intention: "+Janinę Kokot",
+      // },
+      // {
+      //   hour: "7:30",
+      //   intention:
+      //     "+Leszka Raka /od dyrekcji i pracowników Zespołu Szkół Zawodowych Specjalnych w Częstochowie/",
+      // },
+      {
+        hour: "8:00",
+        intention: "O nawrócenie i wiarę dla córki",
+      },
+      {
+        hour: "10:00",
+        intention: "+Eugeniusza, Ignacego, Anastazję Waloszczyków",
+      },
+      {
+        hour: "17:00",
+        intention: "Zbiorowa",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "07.08.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "O nawrócenie i wiarę dla córki",
+      },
+      {
+        hour: "7:30",
+        intention: "rez. Kuliś",
+      },
+      {
+        hour: "17:00",
+        intention: "+Emilię Pyda /od wnuczki Marty z rodz./",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "08.08.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Walentynę /r. śm./, Juliana Wronów",
+      },
+      {
+        hour: "7:30",
+        intention: "+Macieja Lewandowskiego /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Dariusza Kożucha /4 r. śm./",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "09.08.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Wandę Korbel /23 r. śm./",
+      },
+      {
+        hour: "7:30",
+        intention: "+Emilię Kazimierza Cierpiałów, Józefę Krygier",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "+Wandę /2 r.śm./, Stanisławę, Franciszka, Teresę, Tadeusza, Zofię, Ryszarda, Wiesławę, Andrzeja, Bożenę Szczepańczyków, Sabinę Glińską, Janinę, Mieczysława, Henryka Ujmów, Danielę, Ryszarda, Marcina Wysockich, Grzegorza Nowaka /1 r. śm./",
+      },
+    ],
+  },
+  {
+    day: "Niedziela",
+    date: "10.08.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:30",
+        intention: "rez. Grabara",
+      },
+      {
+        hour: "9:30",
+        intention:
+          "W podziękowaniu za przeżyte lata i z prośbą o dalszą opiekę Matki Bożej dla Grażyny i całej rodz.",
+      },
+      {
+        hour: "10:45",
+        intention: "+Jadwigę i Romana Bartników",
+      },
+      {
+        hour: "12:00",
+        intention:
+          "W podziękowaniu za wszelkie łaski i o Boże bł. dla Heleny Ostalskiej z racji 90 r. urodzin",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "+Ludwika, Antoninę Paruzel z dziećmi, Ryszarda Soszyńskiego z rodzicami, Zofię, Stefana Tukajów, Genowefę Wilk",
       },
     ],
   },
