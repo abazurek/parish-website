@@ -29,8 +29,8 @@ export const HomeLayout: FC = () => {
           />
         ))}
       </CardsWrapper>
-      <Notice text={noticeRadio} />
-      <Notice text={noticeChoir} />
+      {/*<Notice text={noticeRadio} />*/}
+      {/*<Notice text={noticeChoir} />*/}
     </div>
   );
 };

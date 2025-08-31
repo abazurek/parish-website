@@ -1,22 +1,21 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "03.08.25r.",
+    date: "31.08.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "+Janinę Kokot",
+        intention: "+Jana Molkę /od Jarka i Renaty Nowaczyk/",
       },
       {
         hour: "9:30",
-        intention:
-          "+Natalię, Władysława Cichoniów, Genowefę, Edwarda Tajchmanów",
+        intention: "+Izabelę, Ryszarda Kowalików",
       },
       {
         hour: "10:45",
         intention:
-          "+Antoninę Krysiak, Wiesława Wojtana, ks. Stanisława Koniecznego",
+          "+Józefa, Urszulę, Danutę Bialk, Elżbietę, Eugeniusza, Janusza Augustynowiczów, Alfredę, Tadeusza Kołodziejczyków",
       },
       {
         hour: "12:00",
@@ -24,71 +23,84 @@ export const massesIntentions = [
       },
       {
         hour: "17:00",
-        intention: "/rez. p. Kołek/",
+        intention: "+Mirosława, Bogumiłę, zm. z rodz. Pieprzyckich i Mizgałów",
       },
     ],
   },
   {
     day: "Poniedziałek",
-    date: "04.08.25r.",
+    date: "01.09.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Janinę Kokot",
+        intention: "+Bronisława Ruśkiewicza",
       },
       {
         hour: "7:30",
-        intention: "+Macieja Lewandowskiego /od Michała i Klaudii Jakubiec/",
+        intention: "+Jerzego Walaszczyka /od Ilony Kamińskiej i Urszuli Gębuś/",
+      },
+      {
+        hour: "8:15",
+        intention: "8.15 Msza Św. na Rozpoczęcie Roku Szkolnego",
       },
       {
         hour: "17:00",
-        intention:
-          "O Boże bł. i wszelkie łaski dla siostry Wianei z racji imienin /od życzliwych pań/",
+        intention: "+Jana Kaletę /od brata Adama z rodz./",
       },
     ],
   },
   {
     day: "Wtorek",
-    date: "05.08.25r.",
+    date: "02.09.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
         intention:
-          "O Boże bł. i wszelkie łaski dla Agaty z racji 15 r. urodzin",
+          "+Genowefę Wilk /od wnuka Roberta z żoną Edytą i prawwnukami",
       },
       {
         hour: "7:30",
-        intention: "+Janinę Kokot",
+        intention: "+Lecha Gębusia /od uczest. pogrzebu/",
       },
       {
         hour: "17:00",
-        intention: "+Lidię Kliszewską /4 r. śm./",
+        intention: "+Jana Kaletę /od brata Stanisława z rodz./",
       },
     ],
   },
   {
     day: "Środa",
-    date: "06.08.25r.",
-    addInfo: "Święto Przemienienia Pańskiego",
+    date: "03.09.25r.",
+    addInfo: "",
     intensions: [
-      // {
-      //   hour: "7:00",
-      //   intention: "+Janinę Kokot",
-      // },
-      // {
-      //   hour: "7:30",
-      //   intention:
-      //     "+Leszka Raka /od dyrekcji i pracowników Zespołu Szkół Zawodowych Specjalnych w Częstochowie/",
-      // },
       {
-        hour: "8:00",
-        intention: "O nawrócenie i wiarę dla córki",
+        hour: "7:00",
+        intention: "+Mariana Kasprzyka /od Aleksandry i Józefa Klimków/",
       },
       {
-        hour: "10:00",
-        intention: "+Eugeniusza, Ignacego, Anastazję Waloszczyków",
+        hour: "7:30",
+        intention: "+Lecha Gębusia /od uczest. pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Jana Kaletę /od córki/",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "04.09.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Dusze w Czyśćcu cierpiące",
+      },
+      {
+        hour: "7:30",
+        intention: "Za Kapłanów",
       },
       {
         hour: "17:00",
@@ -97,90 +109,69 @@ export const massesIntentions = [
     ],
   },
   {
-    day: "Czwartek",
-    date: "07.08.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "O nawrócenie i wiarę dla córki",
-      },
-      {
-        hour: "7:30",
-        intention: "rez. Kuliś",
-      },
-      {
-        hour: "17:00",
-        intention: "+Emilię Pyda /od wnuczki Marty z rodz./",
-      },
-    ],
-  },
-  {
     day: "Piątek",
-    date: "08.08.25r.",
+    date: "05.09.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Walentynę /r. śm./, Juliana Wronów",
+        intention: "+Genowefę Wilk /od córki Elżbiety z mężem Czesławem/",
       },
       {
         hour: "7:30",
-        intention: "+Macieja Lewandowskiego /od uczest. pogrzebu/",
+        intention: "+Danutę, Tadeusza Gierczaków, Michalinę, Jana Kierachów",
       },
       {
         hour: "17:00",
-        intention: "+Dariusza Kożucha /4 r. śm./",
+        intention:
+          "+Janinę, Wiesławę, Alfreda, Kazimierza Cierpiałów, Henrykę Ujma, zm. z rodz. Cierpiałów",
       },
     ],
   },
   {
     day: "Sobota",
-    date: "09.08.25r.",
+    date: "06.09.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:00",
-        intention: "+Wandę Korbel /23 r. śm./",
+        intention: "rez. Kwasiborska",
       },
       {
         hour: "7:30",
-        intention: "+Emilię Kazimierza Cierpiałów, Józefę Krygier",
+        intention: "+Mariannę Nowaczyk",
       },
       {
         hour: "17:00",
         intention:
-          "+Wandę /2 r.śm./, Stanisławę, Franciszka, Teresę, Tadeusza, Zofię, Ryszarda, Wiesławę, Andrzeja, Bożenę Szczepańczyków, Sabinę Glińską, Janinę, Mieczysława, Henryka Ujmów, Danielę, Ryszarda, Marcina Wysockich, Grzegorza Nowaka /1 r. śm./",
+          "+Ryszarda, Genowefę, Jana Hiszpańskich, Natalię, Jana, Wiesława, Halinę, Zdzisława Poroszewskich",
       },
     ],
   },
   {
     day: "Niedziela",
-    date: "10.08.25r.",
+    date: "07.09.25r.",
     addInfo: "",
     intensions: [
       {
         hour: "7:30",
-        intention: "rez. Grabara",
+        intention: "+Jadwigę, Bogumiła Kiserów",
       },
       {
         hour: "9:30",
-        intention:
-          "W podziękowaniu za przeżyte lata i z prośbą o dalszą opiekę Matki Bożej dla Grażyny i całej rodz.",
+        intention: "+Stefana Kulasiewicza, Stefanię, Pawła, Henryka Marczaków",
       },
       {
         hour: "10:45",
-        intention: "+Jadwigę i Romana Bartników",
+        intention: "+Feliksę Gielniewską /od dzieci z rodzinami/",
       },
       {
         hour: "12:00",
-        intention:
-          "W podziękowaniu za wszelkie łaski i o Boże bł. dla Heleny Ostalskiej z racji 90 r. urodzin",
+        intention: "Za Parafian",
       },
       {
         hour: "17:00",
-        intention:
-          "+Ludwika, Antoninę Paruzel z dziećmi, Ryszarda Soszyńskiego z rodzicami, Zofię, Stefana Tukajów, Genowefę Wilk",
+        intention: "+Mariannę Siudeja",
       },
     ],
   },
