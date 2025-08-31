@@ -3,10 +3,6 @@ import { cardsDescription } from "../../utils/cardsDescription";
 import { InfoCard } from "../InfoCard/InfoCard";
 import styled from "styled-components";
 import { Helmet } from "react-helmet";
-import { Notice } from "../Notice/Notice";
-import { noticeRadio } from "../../utils/noticeRadio";
-import { noticeChoir } from "../../utils/noticeChoir";
-
 export const HomeLayout: FC = () => {
   return (
     <div>
