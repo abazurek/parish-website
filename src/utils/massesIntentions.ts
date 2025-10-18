@@ -1,153 +1,6 @@
 export const massesIntentions = [
   {
     day: "Niedziela",
-    date: "12.10.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:30",
-        intention: "+Walentynę /r. ur./ Juliana Wronów/",
-      },
-      {
-        hour: "9:30",
-        intention: "+Ludwika, Ewelinę Kowalskich",
-      },
-      {
-        hour: "10:45",
-        intention: "+Stanisławę, Szczepana Ożga",
-      },
-      {
-        hour: "12:00",
-        intention: "Za Parafian",
-      },
-      {
-        hour: "17:00",
-        intention: "+Marię, Mieczysława Hul",
-      },
-    ],
-  },
-  {
-    day: "Poniedziałek",
-    date: "13.10.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Czesława, Lidię, Antoninę, Franciszka Kliszewskich",
-      },
-      {
-        hour: "7:30",
-        intention: "+Eulalię Gruca /od rodz. Chudzików/",
-      },
-      {
-        hour: "17:00",
-        intention: "Zbiorowa",
-      },
-    ],
-  },
-  {
-    day: "Wtorek",
-    date: "14.10.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Marię Kasprzyk /od dzieci Jana Zielonki/",
-      },
-      {
-        hour: "7:30",
-        intention: "+Zygmunta Nicponia /od uczest. pogrzebu/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Marię Kasprzyk /od syna Krzysztofa z rodz./",
-      },
-    ],
-  },
-  {
-    day: "Środa",
-    date: "15.10.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention:
-          "+Józefę /16 r. śm./, Waldemara /52 r. śm./ Szczypiorowskich",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "+Janinę /3 r. śm./, Jana, Mieczysława Czechów, Michalinę, Jana Kierachów",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Jolantę, Wacława Golisów, Tadeusza Szczerka, zm. z rodz. Golisów i Kulejów",
-      },
-    ],
-  },
-  {
-    day: "Czwartek",
-    date: "16.10.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Janinę Kokot /r. śm./",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "+Marię Kasprzyk /od Grażyny i Zbigniewa Lutostańskich z dziećmi/",
-      },
-      {
-        hour: "17:00",
-        intention: "+Franciszka, Ryszarda Leśko",
-      },
-    ],
-  },
-  {
-    day: "Piątek",
-    date: "17.10.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Marka, Zbysława, Jolantę, Bronisława Ruśkiewiczów",
-      },
-      {
-        hour: "7:30",
-        intention: "+Marię Kasprzyk /od rodz. Sasinowskich z Zambrowa/",
-      },
-      {
-        hour: "17:00",
-        intention:
-          "+Alberta, Franciszkę, Jana, Franciszkę, Józefa, Stanisława, Mariannę Podsiedlików, Walerię Zajączkowską, Bronisławę Kędziora z mężem Stanisławem, Mieczysława, Józefa Wieczorków, Dusze w Czyśćcu cierpiące",
-      },
-    ],
-  },
-  {
-    day: "Sobota",
-    date: "18.10.25r.",
-    addInfo: "",
-    intensions: [
-      {
-        hour: "7:00",
-        intention: "+Marię Kasprzyk /od uczest. pogrzebu/",
-      },
-      {
-        hour: "7:30",
-        intention:
-          "+Zygmunta Nicponia /od kolegi Jerzego Błachuckiego z rodz./",
-      },
-      {
-        hour: "17:00",
-        intention: "Jubileusze małżeńskie:",
-      },
-    ],
-  },
-  {
-    day: "Niedziela",
     date: "19.10.25r.",
     addInfo: "",
     intensions: [
@@ -171,7 +24,152 @@ export const massesIntentions = [
       },
       {
         hour: "17:00",
-        intention: "rez. p. K. Bajor",
+        intention:
+          "+Irenę, Halinę, Tadeusza Kostępskich, Celinę, Antoniego, Jarosława Dudków",
+      },
+    ],
+  },
+  {
+    day: "Poniedziałek",
+    date: "20.10.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Marię Kasprzyk /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Henrykę Pyrkosz /od uczest. Pogrzebu/",
+      },
+      {
+        hour: "17:00",
+        intention: "+Marię Kozłowską /od wnuka Piotra z rodz./",
+      },
+    ],
+  },
+  {
+    day: "Wtorek",
+    date: "21.10.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Marię Kasprzyk /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Eulalię Gruca /od siostry z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "+Krystynę, Zdzisława Jabłońskich, Wandę, Bolesława Pisulów zm. z rodz. Jabłońskich i Pisulów",
+      },
+    ],
+  },
+  {
+    day: "Środa",
+    date: "22.10.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "O nawrócenie i wiarę dla córki",
+      },
+      {
+        hour: "7:30",
+        intention: "O Boże bł. i światło Ducha Św. dla Mateusza",
+      },
+      {
+        hour: "17:00",
+        intention: "Zbiorowa",
+      },
+    ],
+  },
+  {
+    day: "Czwartek",
+    date: "23.10.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Marię Kasprzyk /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Eulalię Gruca /od Cecylii Kubis z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention: "O Boże bł., owoce i dary Ducha Św. dla całej rodziny",
+      },
+    ],
+  },
+  {
+    day: "Piątek",
+    date: "24.10.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Marię Kasprzyk /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Eulalię Gruca /od syna Krzysztofa z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention: "+Marcina Kaczmarka",
+      },
+    ],
+  },
+  {
+    day: "Sobota",
+    date: "25.10.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:00",
+        intention: "+Marię Kasprzyk /od uczest. pogrzebu/",
+      },
+      {
+        hour: "7:30",
+        intention: "+Eulalię Gruca /od wnuczki Anny z rodz./",
+      },
+      {
+        hour: "17:00",
+        intention: "rez. Dyczki",
+      },
+    ],
+  },
+  {
+    day: "Niedziela",
+    date: "26.10.25r.",
+    addInfo: "",
+    intensions: [
+      {
+        hour: "7:30",
+        intention:
+          "O Boże bł., zdrowie i wszelkie łaski dla Aleksandra w 4 r. urodzin",
+      },
+      {
+        hour: "9:30",
+        intention: "+Zygmunta /17 r. śm/, Jadwigę Kluza",
+      },
+      {
+        hour: "10:45",
+        intention: "+Ingę Zawadzką /1 r. śm., od rodz. Zawadzkich/",
+      },
+      {
+        hour: "12:00",
+        intention: "Za Parafian",
+      },
+      {
+        hour: "17:00",
+        intention:
+          "+Natalię /5 r. śm./, Władysława Cichoniów, Genowefę, Edwarda Tajchmanów",
       },
     ],
   },
